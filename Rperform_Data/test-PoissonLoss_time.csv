@@ -1,0 +1,151 @@
+"","test_num","test_name","metric_name","status","metric_val","message","sha","date_time"
+"1",1,"PoissonLoss(seg.mean=0, count=0) == 0","runtime (in seconds)","pass",0.0013188,"Update test-Poi","93ee09fccea4e1ce7650850e589a0443802d1184",2020-04-14 13:49:23
+"2",1,"PoissonLoss(seg.mean=0, count>0) == Inf","runtime (in seconds)","pass",0.0014691,"Update test-Poi","93ee09fccea4e1ce7650850e589a0443802d1184",2020-04-14 13:49:23
+"3",1,"PoissonLoss(seg.mean<0) undefined","runtime (in seconds)","pass",0.0057638,"Update test-Poi","93ee09fccea4e1ce7650850e589a0443802d1184",2020-04-14 13:49:23
+"4",1,"PoissonLoss(weight<0) undefined","runtime (in seconds)","pass",0.005451,"Update test-Poi","93ee09fccea4e1ce7650850e589a0443802d1184",2020-04-14 13:49:23
+"5",1,"PoissonLoss(count=2.5) is 0","runtime (in seconds)","pass",0.0012494,"Update test-Poi","93ee09fccea4e1ce7650850e589a0443802d1184",2020-04-14 13:49:23
+"6",1,"PoissonLoss(count= -2) is 0","runtime (in seconds)","pass",0.0012623,"Update test-Poi","93ee09fccea4e1ce7650850e589a0443802d1184",2020-04-14 13:49:23
+"7",1,"PoissonLoss(count=1 or 0) == -dpois(log=TRUE)","runtime (in seconds)","pass",0.0021201,"Update test-Poi","93ee09fccea4e1ce7650850e589a0443802d1184",2020-04-14 13:49:23
+"8",1,"PoissonLoss(seg.mean=scalar, count=vector) is fine","runtime (in seconds)","pass",0.0029645,"Update test-Poi","93ee09fccea4e1ce7650850e589a0443802d1184",2020-04-14 13:49:23
+"9",1,"PoissonLoss(seg.mean=2-vector, count=3-vector) is an error","runtime (in seconds)","pass",0.005724,"Update test-Poi","93ee09fccea4e1ce7650850e589a0443802d1184",2020-04-14 13:49:23
+"10",1,"test-PoissonLoss.R","runtime (in seconds)","pass",0.1421162,"Update test-Poi","93ee09fccea4e1ce7650850e589a0443802d1184",2020-04-14 13:49:23
+"11",2,"PoissonLoss(seg.mean=0, count=0) == 0","runtime (in seconds)","pass",0.0014701,"Update test-Poi","93ee09fccea4e1ce7650850e589a0443802d1184",2020-04-14 13:49:23
+"12",2,"PoissonLoss(seg.mean=0, count>0) == Inf","runtime (in seconds)","pass",0.0012854,"Update test-Poi","93ee09fccea4e1ce7650850e589a0443802d1184",2020-04-14 13:49:23
+"13",2,"PoissonLoss(seg.mean<0) undefined","runtime (in seconds)","pass",0.0051929,"Update test-Poi","93ee09fccea4e1ce7650850e589a0443802d1184",2020-04-14 13:49:23
+"14",2,"PoissonLoss(weight<0) undefined","runtime (in seconds)","pass",0.0053743,"Update test-Poi","93ee09fccea4e1ce7650850e589a0443802d1184",2020-04-14 13:49:23
+"15",2,"PoissonLoss(count=2.5) is 0","runtime (in seconds)","pass",0.0013345,"Update test-Poi","93ee09fccea4e1ce7650850e589a0443802d1184",2020-04-14 13:49:23
+"16",2,"PoissonLoss(count= -2) is 0","runtime (in seconds)","pass",0.0012846,"Update test-Poi","93ee09fccea4e1ce7650850e589a0443802d1184",2020-04-14 13:49:23
+"17",2,"PoissonLoss(count=1 or 0) == -dpois(log=TRUE)","runtime (in seconds)","pass",0.0021579,"Update test-Poi","93ee09fccea4e1ce7650850e589a0443802d1184",2020-04-14 13:49:23
+"18",2,"PoissonLoss(seg.mean=scalar, count=vector) is fine","runtime (in seconds)","pass",0.0020385,"Update test-Poi","93ee09fccea4e1ce7650850e589a0443802d1184",2020-04-14 13:49:23
+"19",2,"PoissonLoss(seg.mean=2-vector, count=3-vector) is an error","runtime (in seconds)","pass",0.0059267,"Update test-Poi","93ee09fccea4e1ce7650850e589a0443802d1184",2020-04-14 13:49:23
+"20",2,"test-PoissonLoss.R","runtime (in seconds)","pass",0.0226665,"Update test-Poi","93ee09fccea4e1ce7650850e589a0443802d1184",2020-04-14 13:49:23
+"21",3,"PoissonLoss(seg.mean=0, count=0) == 0","runtime (in seconds)","pass",0.0014651,"Update test-Poi","93ee09fccea4e1ce7650850e589a0443802d1184",2020-04-14 13:49:23
+"22",3,"PoissonLoss(seg.mean=0, count>0) == Inf","runtime (in seconds)","pass",0.0017249,"Update test-Poi","93ee09fccea4e1ce7650850e589a0443802d1184",2020-04-14 13:49:23
+"23",3,"PoissonLoss(seg.mean<0) undefined","runtime (in seconds)","pass",0.0055212,"Update test-Poi","93ee09fccea4e1ce7650850e589a0443802d1184",2020-04-14 13:49:23
+"24",3,"PoissonLoss(weight<0) undefined","runtime (in seconds)","pass",0.0053455,"Update test-Poi","93ee09fccea4e1ce7650850e589a0443802d1184",2020-04-14 13:49:23
+"25",3,"PoissonLoss(count=2.5) is 0","runtime (in seconds)","pass",0.0012365,"Update test-Poi","93ee09fccea4e1ce7650850e589a0443802d1184",2020-04-14 13:49:23
+"26",3,"PoissonLoss(count= -2) is 0","runtime (in seconds)","pass",0.0013545,"Update test-Poi","93ee09fccea4e1ce7650850e589a0443802d1184",2020-04-14 13:49:23
+"27",3,"PoissonLoss(count=1 or 0) == -dpois(log=TRUE)","runtime (in seconds)","pass",0.0020978,"Update test-Poi","93ee09fccea4e1ce7650850e589a0443802d1184",2020-04-14 13:49:23
+"28",3,"PoissonLoss(seg.mean=scalar, count=vector) is fine","runtime (in seconds)","pass",0.0022256,"Update test-Poi","93ee09fccea4e1ce7650850e589a0443802d1184",2020-04-14 13:49:23
+"29",3,"PoissonLoss(seg.mean=2-vector, count=3-vector) is an error","runtime (in seconds)","pass",0.0059116,"Update test-Poi","93ee09fccea4e1ce7650850e589a0443802d1184",2020-04-14 13:49:23
+"30",3,"test-PoissonLoss.R","runtime (in seconds)","pass",0.0218045,"Update test-Poi","93ee09fccea4e1ce7650850e589a0443802d1184",2020-04-14 13:49:23
+"31",1,"PoissonLoss(seg.mean=0, count=0) == 0","runtime (in seconds)","pass",0.0016276,"Create main.yml","7b445c975c2bf2f995ee7c936a38f7545d6331e9",2020-04-14 13:48:51
+"32",1,"PoissonLoss(seg.mean=0, count>0) == Inf","runtime (in seconds)","pass",0.001271,"Create main.yml","7b445c975c2bf2f995ee7c936a38f7545d6331e9",2020-04-14 13:48:51
+"33",1,"PoissonLoss(seg.mean<0) undefined","runtime (in seconds)","pass",0.0051462,"Create main.yml","7b445c975c2bf2f995ee7c936a38f7545d6331e9",2020-04-14 13:48:51
+"34",1,"PoissonLoss(weight<0) undefined","runtime (in seconds)","pass",0.0053076,"Create main.yml","7b445c975c2bf2f995ee7c936a38f7545d6331e9",2020-04-14 13:48:51
+"35",1,"PoissonLoss(count=2.5) is 0","runtime (in seconds)","pass",0.0012301,"Create main.yml","7b445c975c2bf2f995ee7c936a38f7545d6331e9",2020-04-14 13:48:51
+"36",1,"PoissonLoss(count= -2) is 0","runtime (in seconds)","pass",0.0012508,"Create main.yml","7b445c975c2bf2f995ee7c936a38f7545d6331e9",2020-04-14 13:48:51
+"37",1,"PoissonLoss(count=1 or 0) == -dpois(log=TRUE)","runtime (in seconds)","pass",0.0032804,"Create main.yml","7b445c975c2bf2f995ee7c936a38f7545d6331e9",2020-04-14 13:48:51
+"38",1,"PoissonLoss(seg.mean=scalar, count=vector) is fine","runtime (in seconds)","pass",0.0021668,"Create main.yml","7b445c975c2bf2f995ee7c936a38f7545d6331e9",2020-04-14 13:48:51
+"39",1,"PoissonLoss(seg.mean=2-vector, count=3-vector) is an error","runtime (in seconds)","pass",0.005335,"Create main.yml","7b445c975c2bf2f995ee7c936a38f7545d6331e9",2020-04-14 13:48:51
+"40",1,"test-PoissonLoss.R","runtime (in seconds)","pass",0.0216796,"Create main.yml","7b445c975c2bf2f995ee7c936a38f7545d6331e9",2020-04-14 13:48:51
+"41",2,"PoissonLoss(seg.mean=0, count=0) == 0","runtime (in seconds)","pass",0.001521,"Create main.yml","7b445c975c2bf2f995ee7c936a38f7545d6331e9",2020-04-14 13:48:51
+"42",2,"PoissonLoss(seg.mean=0, count>0) == Inf","runtime (in seconds)","pass",0.0012102,"Create main.yml","7b445c975c2bf2f995ee7c936a38f7545d6331e9",2020-04-14 13:48:51
+"43",2,"PoissonLoss(seg.mean<0) undefined","runtime (in seconds)","pass",0.0050966,"Create main.yml","7b445c975c2bf2f995ee7c936a38f7545d6331e9",2020-04-14 13:48:51
+"44",2,"PoissonLoss(weight<0) undefined","runtime (in seconds)","pass",0.005671,"Create main.yml","7b445c975c2bf2f995ee7c936a38f7545d6331e9",2020-04-14 13:48:51
+"45",2,"PoissonLoss(count=2.5) is 0","runtime (in seconds)","pass",0.0013142,"Create main.yml","7b445c975c2bf2f995ee7c936a38f7545d6331e9",2020-04-14 13:48:51
+"46",2,"PoissonLoss(count= -2) is 0","runtime (in seconds)","pass",0.0013134,"Create main.yml","7b445c975c2bf2f995ee7c936a38f7545d6331e9",2020-04-14 13:48:51
+"47",2,"PoissonLoss(count=1 or 0) == -dpois(log=TRUE)","runtime (in seconds)","pass",0.0021556,"Create main.yml","7b445c975c2bf2f995ee7c936a38f7545d6331e9",2020-04-14 13:48:51
+"48",2,"PoissonLoss(seg.mean=scalar, count=vector) is fine","runtime (in seconds)","pass",0.0020814,"Create main.yml","7b445c975c2bf2f995ee7c936a38f7545d6331e9",2020-04-14 13:48:51
+"49",2,"PoissonLoss(seg.mean=2-vector, count=3-vector) is an error","runtime (in seconds)","pass",0.0053789,"Create main.yml","7b445c975c2bf2f995ee7c936a38f7545d6331e9",2020-04-14 13:48:51
+"50",2,"test-PoissonLoss.R","runtime (in seconds)","pass",0.0229019,"Create main.yml","7b445c975c2bf2f995ee7c936a38f7545d6331e9",2020-04-14 13:48:51
+"51",3,"PoissonLoss(seg.mean=0, count=0) == 0","runtime (in seconds)","pass",0.0015019,"Create main.yml","7b445c975c2bf2f995ee7c936a38f7545d6331e9",2020-04-14 13:48:51
+"52",3,"PoissonLoss(seg.mean=0, count>0) == Inf","runtime (in seconds)","pass",0.001286,"Create main.yml","7b445c975c2bf2f995ee7c936a38f7545d6331e9",2020-04-14 13:48:51
+"53",3,"PoissonLoss(seg.mean<0) undefined","runtime (in seconds)","pass",0.0055909,"Create main.yml","7b445c975c2bf2f995ee7c936a38f7545d6331e9",2020-04-14 13:48:51
+"54",3,"PoissonLoss(weight<0) undefined","runtime (in seconds)","pass",0.0052455,"Create main.yml","7b445c975c2bf2f995ee7c936a38f7545d6331e9",2020-04-14 13:48:51
+"55",3,"PoissonLoss(count=2.5) is 0","runtime (in seconds)","pass",0.0013178,"Create main.yml","7b445c975c2bf2f995ee7c936a38f7545d6331e9",2020-04-14 13:48:51
+"56",3,"PoissonLoss(count= -2) is 0","runtime (in seconds)","pass",0.0012288,"Create main.yml","7b445c975c2bf2f995ee7c936a38f7545d6331e9",2020-04-14 13:48:51
+"57",3,"PoissonLoss(count=1 or 0) == -dpois(log=TRUE)","runtime (in seconds)","pass",0.0021552,"Create main.yml","7b445c975c2bf2f995ee7c936a38f7545d6331e9",2020-04-14 13:48:51
+"58",3,"PoissonLoss(seg.mean=scalar, count=vector) is fine","runtime (in seconds)","pass",0.0021753,"Create main.yml","7b445c975c2bf2f995ee7c936a38f7545d6331e9",2020-04-14 13:48:51
+"59",3,"PoissonLoss(seg.mean=2-vector, count=3-vector) is an error","runtime (in seconds)","pass",0.0061676,"Create main.yml","7b445c975c2bf2f995ee7c936a38f7545d6331e9",2020-04-14 13:48:51
+"60",3,"test-PoissonLoss.R","runtime (in seconds)","pass",0.0223484,"Create main.yml","7b445c975c2bf2f995ee7c936a38f7545d6331e9",2020-04-14 13:48:51
+"61",1,"PoissonLoss(seg.mean=0, count=0) == 0","runtime (in seconds)","pass",0.0012685,"Merge pull requ","ae8ae04a865406486491672989692998332b993a",2019-12-16 05:05:32
+"62",1,"PoissonLoss(seg.mean=0, count>0) == Inf","runtime (in seconds)","pass",0.0012068,"Merge pull requ","ae8ae04a865406486491672989692998332b993a",2019-12-16 05:05:32
+"63",1,"PoissonLoss(seg.mean<0) undefined","runtime (in seconds)","pass",0.0082517,"Merge pull requ","ae8ae04a865406486491672989692998332b993a",2019-12-16 05:05:32
+"64",1,"PoissonLoss(weight<0) undefined","runtime (in seconds)","pass",0.005842,"Merge pull requ","ae8ae04a865406486491672989692998332b993a",2019-12-16 05:05:32
+"65",1,"PoissonLoss(count=2.5) is 0","runtime (in seconds)","pass",0.001172,"Merge pull requ","ae8ae04a865406486491672989692998332b993a",2019-12-16 05:05:32
+"66",1,"PoissonLoss(count= -2) is 0","runtime (in seconds)","pass",0.0012012,"Merge pull requ","ae8ae04a865406486491672989692998332b993a",2019-12-16 05:05:32
+"67",1,"PoissonLoss(count=1 or 0) == -dpois(log=TRUE)","runtime (in seconds)","pass",0.0020607,"Merge pull requ","ae8ae04a865406486491672989692998332b993a",2019-12-16 05:05:32
+"68",1,"PoissonLoss(seg.mean=scalar, count=vector) is fine","runtime (in seconds)","pass",0.0020623,"Merge pull requ","ae8ae04a865406486491672989692998332b993a",2019-12-16 05:05:32
+"69",1,"PoissonLoss(seg.mean=2-vector, count=3-vector) is an error","runtime (in seconds)","pass",0.0053113,"Merge pull requ","ae8ae04a865406486491672989692998332b993a",2019-12-16 05:05:32
+"70",1,"test-PoissonLoss.R","runtime (in seconds)","pass",0.0224296,"Merge pull requ","ae8ae04a865406486491672989692998332b993a",2019-12-16 05:05:32
+"71",2,"PoissonLoss(seg.mean=0, count=0) == 0","runtime (in seconds)","pass",0.0012041,"Merge pull requ","ae8ae04a865406486491672989692998332b993a",2019-12-16 05:05:32
+"72",2,"PoissonLoss(seg.mean=0, count>0) == Inf","runtime (in seconds)","pass",0.0013624,"Merge pull requ","ae8ae04a865406486491672989692998332b993a",2019-12-16 05:05:32
+"73",2,"PoissonLoss(seg.mean<0) undefined","runtime (in seconds)","pass",0.005067,"Merge pull requ","ae8ae04a865406486491672989692998332b993a",2019-12-16 05:05:32
+"74",2,"PoissonLoss(weight<0) undefined","runtime (in seconds)","pass",0.0060008,"Merge pull requ","ae8ae04a865406486491672989692998332b993a",2019-12-16 05:05:32
+"75",2,"PoissonLoss(count=2.5) is 0","runtime (in seconds)","pass",0.00118,"Merge pull requ","ae8ae04a865406486491672989692998332b993a",2019-12-16 05:05:32
+"76",2,"PoissonLoss(count= -2) is 0","runtime (in seconds)","pass",0.0012232,"Merge pull requ","ae8ae04a865406486491672989692998332b993a",2019-12-16 05:05:32
+"77",2,"PoissonLoss(count=1 or 0) == -dpois(log=TRUE)","runtime (in seconds)","pass",0.0020284,"Merge pull requ","ae8ae04a865406486491672989692998332b993a",2019-12-16 05:05:32
+"78",2,"PoissonLoss(seg.mean=scalar, count=vector) is fine","runtime (in seconds)","pass",0.0024916,"Merge pull requ","ae8ae04a865406486491672989692998332b993a",2019-12-16 05:05:32
+"79",2,"PoissonLoss(seg.mean=2-vector, count=3-vector) is an error","runtime (in seconds)","pass",0.0055865,"Merge pull requ","ae8ae04a865406486491672989692998332b993a",2019-12-16 05:05:32
+"80",2,"test-PoissonLoss.R","runtime (in seconds)","pass",0.02403,"Merge pull requ","ae8ae04a865406486491672989692998332b993a",2019-12-16 05:05:32
+"81",3,"PoissonLoss(seg.mean=0, count=0) == 0","runtime (in seconds)","pass",0.0012318,"Merge pull requ","ae8ae04a865406486491672989692998332b993a",2019-12-16 05:05:32
+"82",3,"PoissonLoss(seg.mean=0, count>0) == Inf","runtime (in seconds)","pass",0.0011617,"Merge pull requ","ae8ae04a865406486491672989692998332b993a",2019-12-16 05:05:32
+"83",3,"PoissonLoss(seg.mean<0) undefined","runtime (in seconds)","pass",0.0050972,"Merge pull requ","ae8ae04a865406486491672989692998332b993a",2019-12-16 05:05:32
+"84",3,"PoissonLoss(weight<0) undefined","runtime (in seconds)","pass",0.0051774,"Merge pull requ","ae8ae04a865406486491672989692998332b993a",2019-12-16 05:05:32
+"85",3,"PoissonLoss(count=2.5) is 0","runtime (in seconds)","pass",0.001227,"Merge pull requ","ae8ae04a865406486491672989692998332b993a",2019-12-16 05:05:32
+"86",3,"PoissonLoss(count= -2) is 0","runtime (in seconds)","pass",0.0012853,"Merge pull requ","ae8ae04a865406486491672989692998332b993a",2019-12-16 05:05:32
+"87",3,"PoissonLoss(count=1 or 0) == -dpois(log=TRUE)","runtime (in seconds)","pass",0.0020588,"Merge pull requ","ae8ae04a865406486491672989692998332b993a",2019-12-16 05:05:32
+"88",3,"PoissonLoss(seg.mean=scalar, count=vector) is fine","runtime (in seconds)","pass",0.0024972,"Merge pull requ","ae8ae04a865406486491672989692998332b993a",2019-12-16 05:05:32
+"89",3,"PoissonLoss(seg.mean=2-vector, count=3-vector) is an error","runtime (in seconds)","pass",0.0056091,"Merge pull requ","ae8ae04a865406486491672989692998332b993a",2019-12-16 05:05:32
+"90",3,"test-PoissonLoss.R","runtime (in seconds)","pass",0.0233774,"Merge pull requ","ae8ae04a865406486491672989692998332b993a",2019-12-16 05:05:32
+"91",1,"PoissonLoss(seg.mean=0, count=0) == 0","runtime (in seconds)","pass",0.0012759,"Update DESCRIPT","fb3097af67fc581aada999dc0871fb338a8844e1",2019-12-06 12:16:33
+"92",1,"PoissonLoss(seg.mean=0, count>0) == Inf","runtime (in seconds)","pass",0.0012054,"Update DESCRIPT","fb3097af67fc581aada999dc0871fb338a8844e1",2019-12-06 12:16:33
+"93",1,"PoissonLoss(seg.mean<0) undefined","runtime (in seconds)","pass",0.005345,"Update DESCRIPT","fb3097af67fc581aada999dc0871fb338a8844e1",2019-12-06 12:16:33
+"94",1,"PoissonLoss(weight<0) undefined","runtime (in seconds)","pass",0.0049869,"Update DESCRIPT","fb3097af67fc581aada999dc0871fb338a8844e1",2019-12-06 12:16:33
+"95",1,"PoissonLoss(count=2.5) is 0","runtime (in seconds)","pass",0.001249,"Update DESCRIPT","fb3097af67fc581aada999dc0871fb338a8844e1",2019-12-06 12:16:33
+"96",1,"PoissonLoss(count= -2) is 0","runtime (in seconds)","pass",0.0011895,"Update DESCRIPT","fb3097af67fc581aada999dc0871fb338a8844e1",2019-12-06 12:16:33
+"97",1,"PoissonLoss(count=1 or 0) == -dpois(log=TRUE)","runtime (in seconds)","pass",0.0022102,"Update DESCRIPT","fb3097af67fc581aada999dc0871fb338a8844e1",2019-12-06 12:16:33
+"98",1,"PoissonLoss(seg.mean=scalar, count=vector) is fine","runtime (in seconds)","pass",0.002014,"Update DESCRIPT","fb3097af67fc581aada999dc0871fb338a8844e1",2019-12-06 12:16:33
+"99",1,"PoissonLoss(seg.mean=2-vector, count=3-vector) is an error","runtime (in seconds)","pass",0.0052477,"Update DESCRIPT","fb3097af67fc581aada999dc0871fb338a8844e1",2019-12-06 12:16:33
+"100",1,"test-PoissonLoss.R","runtime (in seconds)","pass",0.0212359,"Update DESCRIPT","fb3097af67fc581aada999dc0871fb338a8844e1",2019-12-06 12:16:33
+"101",2,"PoissonLoss(seg.mean=0, count=0) == 0","runtime (in seconds)","pass",0.0012496,"Update DESCRIPT","fb3097af67fc581aada999dc0871fb338a8844e1",2019-12-06 12:16:33
+"102",2,"PoissonLoss(seg.mean=0, count>0) == Inf","runtime (in seconds)","pass",0.0012557,"Update DESCRIPT","fb3097af67fc581aada999dc0871fb338a8844e1",2019-12-06 12:16:33
+"103",2,"PoissonLoss(seg.mean<0) undefined","runtime (in seconds)","pass",0.0052368,"Update DESCRIPT","fb3097af67fc581aada999dc0871fb338a8844e1",2019-12-06 12:16:33
+"104",2,"PoissonLoss(weight<0) undefined","runtime (in seconds)","pass",0.0051677,"Update DESCRIPT","fb3097af67fc581aada999dc0871fb338a8844e1",2019-12-06 12:16:33
+"105",2,"PoissonLoss(count=2.5) is 0","runtime (in seconds)","pass",0.0012481,"Update DESCRIPT","fb3097af67fc581aada999dc0871fb338a8844e1",2019-12-06 12:16:33
+"106",2,"PoissonLoss(count= -2) is 0","runtime (in seconds)","pass",0.0012123,"Update DESCRIPT","fb3097af67fc581aada999dc0871fb338a8844e1",2019-12-06 12:16:33
+"107",2,"PoissonLoss(count=1 or 0) == -dpois(log=TRUE)","runtime (in seconds)","pass",0.0022942,"Update DESCRIPT","fb3097af67fc581aada999dc0871fb338a8844e1",2019-12-06 12:16:33
+"108",2,"PoissonLoss(seg.mean=scalar, count=vector) is fine","runtime (in seconds)","pass",0.0026166,"Update DESCRIPT","fb3097af67fc581aada999dc0871fb338a8844e1",2019-12-06 12:16:33
+"109",2,"PoissonLoss(seg.mean=2-vector, count=3-vector) is an error","runtime (in seconds)","pass",0.0054245,"Update DESCRIPT","fb3097af67fc581aada999dc0871fb338a8844e1",2019-12-06 12:16:33
+"110",2,"test-PoissonLoss.R","runtime (in seconds)","pass",0.0227352,"Update DESCRIPT","fb3097af67fc581aada999dc0871fb338a8844e1",2019-12-06 12:16:33
+"111",3,"PoissonLoss(seg.mean=0, count=0) == 0","runtime (in seconds)","pass",0.0012357,"Update DESCRIPT","fb3097af67fc581aada999dc0871fb338a8844e1",2019-12-06 12:16:33
+"112",3,"PoissonLoss(seg.mean=0, count>0) == Inf","runtime (in seconds)","pass",0.0011955,"Update DESCRIPT","fb3097af67fc581aada999dc0871fb338a8844e1",2019-12-06 12:16:33
+"113",3,"PoissonLoss(seg.mean<0) undefined","runtime (in seconds)","pass",0.0051493,"Update DESCRIPT","fb3097af67fc581aada999dc0871fb338a8844e1",2019-12-06 12:16:33
+"114",3,"PoissonLoss(weight<0) undefined","runtime (in seconds)","pass",0.0053286,"Update DESCRIPT","fb3097af67fc581aada999dc0871fb338a8844e1",2019-12-06 12:16:33
+"115",3,"PoissonLoss(count=2.5) is 0","runtime (in seconds)","pass",0.0013402,"Update DESCRIPT","fb3097af67fc581aada999dc0871fb338a8844e1",2019-12-06 12:16:33
+"116",3,"PoissonLoss(count= -2) is 0","runtime (in seconds)","pass",0.0012812,"Update DESCRIPT","fb3097af67fc581aada999dc0871fb338a8844e1",2019-12-06 12:16:33
+"117",3,"PoissonLoss(count=1 or 0) == -dpois(log=TRUE)","runtime (in seconds)","pass",0.0019206,"Update DESCRIPT","fb3097af67fc581aada999dc0871fb338a8844e1",2019-12-06 12:16:33
+"118",3,"PoissonLoss(seg.mean=scalar, count=vector) is fine","runtime (in seconds)","pass",0.0020734,"Update DESCRIPT","fb3097af67fc581aada999dc0871fb338a8844e1",2019-12-06 12:16:33
+"119",3,"PoissonLoss(seg.mean=2-vector, count=3-vector) is an error","runtime (in seconds)","pass",0.0054023,"Update DESCRIPT","fb3097af67fc581aada999dc0871fb338a8844e1",2019-12-06 12:16:33
+"120",3,"test-PoissonLoss.R","runtime (in seconds)","pass",0.0232307,"Update DESCRIPT","fb3097af67fc581aada999dc0871fb338a8844e1",2019-12-06 12:16:33
+"121",1,"PoissonLoss(seg.mean=0, count=0) == 0","runtime (in seconds)","pass",0.0014956,"plot if interac","0356a5fb9db6697b8cf5b41279fdfaa8b833658b",2017-08-15 13:21:01
+"122",1,"PoissonLoss(seg.mean=0, count>0) == Inf","runtime (in seconds)","pass",0.0012069,"plot if interac","0356a5fb9db6697b8cf5b41279fdfaa8b833658b",2017-08-15 13:21:01
+"123",1,"PoissonLoss(seg.mean<0) undefined","runtime (in seconds)","pass",0.0056572,"plot if interac","0356a5fb9db6697b8cf5b41279fdfaa8b833658b",2017-08-15 13:21:01
+"124",1,"PoissonLoss(weight<0) undefined","runtime (in seconds)","pass",0.0052492,"plot if interac","0356a5fb9db6697b8cf5b41279fdfaa8b833658b",2017-08-15 13:21:01
+"125",1,"PoissonLoss(count=2.5) is 0","runtime (in seconds)","pass",0.0011998,"plot if interac","0356a5fb9db6697b8cf5b41279fdfaa8b833658b",2017-08-15 13:21:01
+"126",1,"PoissonLoss(count= -2) is 0","runtime (in seconds)","pass",0.0012262,"plot if interac","0356a5fb9db6697b8cf5b41279fdfaa8b833658b",2017-08-15 13:21:01
+"127",1,"PoissonLoss(count=1 or 0) == -dpois(log=TRUE)","runtime (in seconds)","pass",0.0022131,"plot if interac","0356a5fb9db6697b8cf5b41279fdfaa8b833658b",2017-08-15 13:21:01
+"128",1,"PoissonLoss(seg.mean=scalar, count=vector) is fine","runtime (in seconds)","pass",0.0019902,"plot if interac","0356a5fb9db6697b8cf5b41279fdfaa8b833658b",2017-08-15 13:21:01
+"129",1,"PoissonLoss(seg.mean=2-vector, count=3-vector) is an error","runtime (in seconds)","pass",0.005443,"plot if interac","0356a5fb9db6697b8cf5b41279fdfaa8b833658b",2017-08-15 13:21:01
+"130",1,"test-PoissonLoss.R","runtime (in seconds)","pass",0.0221143,"plot if interac","0356a5fb9db6697b8cf5b41279fdfaa8b833658b",2017-08-15 13:21:01
+"131",2,"PoissonLoss(seg.mean=0, count=0) == 0","runtime (in seconds)","pass",0.0012881,"plot if interac","0356a5fb9db6697b8cf5b41279fdfaa8b833658b",2017-08-15 13:21:01
+"132",2,"PoissonLoss(seg.mean=0, count>0) == Inf","runtime (in seconds)","pass",0.0051562,"plot if interac","0356a5fb9db6697b8cf5b41279fdfaa8b833658b",2017-08-15 13:21:01
+"133",2,"PoissonLoss(seg.mean<0) undefined","runtime (in seconds)","pass",0.0053701,"plot if interac","0356a5fb9db6697b8cf5b41279fdfaa8b833658b",2017-08-15 13:21:01
+"134",2,"PoissonLoss(weight<0) undefined","runtime (in seconds)","pass",0.0050727,"plot if interac","0356a5fb9db6697b8cf5b41279fdfaa8b833658b",2017-08-15 13:21:01
+"135",2,"PoissonLoss(count=2.5) is 0","runtime (in seconds)","pass",0.0012118,"plot if interac","0356a5fb9db6697b8cf5b41279fdfaa8b833658b",2017-08-15 13:21:01
+"136",2,"PoissonLoss(count= -2) is 0","runtime (in seconds)","pass",0.0012861,"plot if interac","0356a5fb9db6697b8cf5b41279fdfaa8b833658b",2017-08-15 13:21:01
+"137",2,"PoissonLoss(count=1 or 0) == -dpois(log=TRUE)","runtime (in seconds)","pass",0.0024116,"plot if interac","0356a5fb9db6697b8cf5b41279fdfaa8b833658b",2017-08-15 13:21:01
+"138",2,"PoissonLoss(seg.mean=scalar, count=vector) is fine","runtime (in seconds)","pass",0.0021048,"plot if interac","0356a5fb9db6697b8cf5b41279fdfaa8b833658b",2017-08-15 13:21:01
+"139",2,"PoissonLoss(seg.mean=2-vector, count=3-vector) is an error","runtime (in seconds)","pass",0.005434,"plot if interac","0356a5fb9db6697b8cf5b41279fdfaa8b833658b",2017-08-15 13:21:01
+"140",2,"test-PoissonLoss.R","runtime (in seconds)","pass",0.0228882,"plot if interac","0356a5fb9db6697b8cf5b41279fdfaa8b833658b",2017-08-15 13:21:01
+"141",3,"PoissonLoss(seg.mean=0, count=0) == 0","runtime (in seconds)","pass",0.0013087,"plot if interac","0356a5fb9db6697b8cf5b41279fdfaa8b833658b",2017-08-15 13:21:01
+"142",3,"PoissonLoss(seg.mean=0, count>0) == Inf","runtime (in seconds)","pass",0.001322,"plot if interac","0356a5fb9db6697b8cf5b41279fdfaa8b833658b",2017-08-15 13:21:01
+"143",3,"PoissonLoss(seg.mean<0) undefined","runtime (in seconds)","pass",0.0053118,"plot if interac","0356a5fb9db6697b8cf5b41279fdfaa8b833658b",2017-08-15 13:21:01
+"144",3,"PoissonLoss(weight<0) undefined","runtime (in seconds)","pass",0.0058322,"plot if interac","0356a5fb9db6697b8cf5b41279fdfaa8b833658b",2017-08-15 13:21:01
+"145",3,"PoissonLoss(count=2.5) is 0","runtime (in seconds)","pass",0.0012406,"plot if interac","0356a5fb9db6697b8cf5b41279fdfaa8b833658b",2017-08-15 13:21:01
+"146",3,"PoissonLoss(count= -2) is 0","runtime (in seconds)","pass",0.0012095,"plot if interac","0356a5fb9db6697b8cf5b41279fdfaa8b833658b",2017-08-15 13:21:01
+"147",3,"PoissonLoss(count=1 or 0) == -dpois(log=TRUE)","runtime (in seconds)","pass",0.0025149,"plot if interac","0356a5fb9db6697b8cf5b41279fdfaa8b833658b",2017-08-15 13:21:01
+"148",3,"PoissonLoss(seg.mean=scalar, count=vector) is fine","runtime (in seconds)","pass",0.0023075,"plot if interac","0356a5fb9db6697b8cf5b41279fdfaa8b833658b",2017-08-15 13:21:01
+"149",3,"PoissonLoss(seg.mean=2-vector, count=3-vector) is an error","runtime (in seconds)","pass",0.005393,"plot if interac","0356a5fb9db6697b8cf5b41279fdfaa8b833658b",2017-08-15 13:21:01
+"150",3,"test-PoissonLoss.R","runtime (in seconds)","pass",0.023381,"plot if interac","0356a5fb9db6697b8cf5b41279fdfaa8b833658b",2017-08-15 13:21:01
