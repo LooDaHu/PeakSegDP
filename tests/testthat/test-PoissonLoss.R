@@ -45,3 +45,4 @@ test_that("PoissonLoss(seg.mean=2-vector, count=3-vector) is an error", {
     PoissonLoss(c(2.4, 1.2), c(1, 0, 2))
   })
 })
+# Toggle Github Action
