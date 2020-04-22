@@ -269,3 +269,273 @@
 "268",3,"no feasible model for paper data set, forward","runtime (in seconds)","Pass",0.0047987,"Benchmark Resul","2ed1f373ffc120a9d361ed36c5f557c4bc6a07f5",2020-04-22 02:08:06,2020-04-22 04:31:46
 "269",3,"sub-optimal model for paper data set, reverse","runtime (in seconds)","Pass",0.0013634,"Benchmark Resul","2ed1f373ffc120a9d361ed36c5f557c4bc6a07f5",2020-04-22 02:08:06,2020-04-22 04:31:47
 "270",3,"test-trivial.R","runtime (in seconds)","Pass",0.0220905,"Benchmark Resul","2ed1f373ffc120a9d361ed36c5f557c4bc6a07f5",2020-04-22 02:08:06,2020-04-22 04:31:47
+"1",1,"PoissonLoss(seg.mean=0, count=0) == 0","runtime (in seconds)","Pass",0.0010921,"Update PeakSegD","96106c18cec8c0e3cfcdef8b280e0157982194dd",2020-04-22 04:39:59,2020-04-22 04:51:19
+"2",1,"PoissonLoss(seg.mean=0, count>0) == Inf","runtime (in seconds)","Pass",0.0010755,"Update PeakSegD","96106c18cec8c0e3cfcdef8b280e0157982194dd",2020-04-22 04:39:59,2020-04-22 04:51:19
+"3",1,"PoissonLoss(seg.mean<0) undefined","runtime (in seconds)","Pass",0.005431,"Update PeakSegD","96106c18cec8c0e3cfcdef8b280e0157982194dd",2020-04-22 04:39:59,2020-04-22 04:51:19
+"4",1,"PoissonLoss(weight<0) undefined","runtime (in seconds)","Pass",0.0058305,"Update PeakSegD","96106c18cec8c0e3cfcdef8b280e0157982194dd",2020-04-22 04:39:59,2020-04-22 04:51:19
+"5",1,"PoissonLoss(count=2.5) is 0","runtime (in seconds)","Pass",0.0012119,"Update PeakSegD","96106c18cec8c0e3cfcdef8b280e0157982194dd",2020-04-22 04:39:59,2020-04-22 04:51:20
+"6",1,"PoissonLoss(count= -2) is 0","runtime (in seconds)","Pass",0.0010582,"Update PeakSegD","96106c18cec8c0e3cfcdef8b280e0157982194dd",2020-04-22 04:39:59,2020-04-22 04:51:20
+"7",1,"PoissonLoss(count=1 or 0) == -dpois(log=TRUE)","runtime (in seconds)","Pass",0.0018874,"Update PeakSegD","96106c18cec8c0e3cfcdef8b280e0157982194dd",2020-04-22 04:39:59,2020-04-22 04:51:20
+"8",1,"PoissonLoss(seg.mean=scalar, count=vector) is fine","runtime (in seconds)","Pass",0.0017338,"Update PeakSegD","96106c18cec8c0e3cfcdef8b280e0157982194dd",2020-04-22 04:39:59,2020-04-22 04:51:20
+"9",1,"PoissonLoss(seg.mean=2-vector, count=3-vector) is an error","runtime (in seconds)","Pass",0.0051841,"Update PeakSegD","96106c18cec8c0e3cfcdef8b280e0157982194dd",2020-04-22 04:39:59,2020-04-22 04:51:21
+"10",1,"test-PoissonLoss.R","runtime (in seconds)","Pass",0.0621551,"Update PeakSegD","96106c18cec8c0e3cfcdef8b280e0157982194dd",2020-04-22 04:39:59,2020-04-22 04:51:21
+"11",2,"PoissonLoss(seg.mean=0, count=0) == 0","runtime (in seconds)","Pass",0.001181,"Update PeakSegD","96106c18cec8c0e3cfcdef8b280e0157982194dd",2020-04-22 04:39:59,2020-04-22 04:51:22
+"12",2,"PoissonLoss(seg.mean=0, count>0) == Inf","runtime (in seconds)","Pass",0.0011435,"Update PeakSegD","96106c18cec8c0e3cfcdef8b280e0157982194dd",2020-04-22 04:39:59,2020-04-22 04:51:22
+"13",2,"PoissonLoss(seg.mean<0) undefined","runtime (in seconds)","Pass",0.0057531,"Update PeakSegD","96106c18cec8c0e3cfcdef8b280e0157982194dd",2020-04-22 04:39:59,2020-04-22 04:51:22
+"14",2,"PoissonLoss(weight<0) undefined","runtime (in seconds)","Pass",0.005352,"Update PeakSegD","96106c18cec8c0e3cfcdef8b280e0157982194dd",2020-04-22 04:39:59,2020-04-22 04:51:23
+"15",2,"PoissonLoss(count=2.5) is 0","runtime (in seconds)","Pass",0.0011437,"Update PeakSegD","96106c18cec8c0e3cfcdef8b280e0157982194dd",2020-04-22 04:39:59,2020-04-22 04:51:23
+"16",2,"PoissonLoss(count= -2) is 0","runtime (in seconds)","Pass",0.0011043,"Update PeakSegD","96106c18cec8c0e3cfcdef8b280e0157982194dd",2020-04-22 04:39:59,2020-04-22 04:51:23
+"17",2,"PoissonLoss(count=1 or 0) == -dpois(log=TRUE)","runtime (in seconds)","Pass",0.0018742,"Update PeakSegD","96106c18cec8c0e3cfcdef8b280e0157982194dd",2020-04-22 04:39:59,2020-04-22 04:51:23
+"18",2,"PoissonLoss(seg.mean=scalar, count=vector) is fine","runtime (in seconds)","Pass",0.0018802,"Update PeakSegD","96106c18cec8c0e3cfcdef8b280e0157982194dd",2020-04-22 04:39:59,2020-04-22 04:51:24
+"19",2,"PoissonLoss(seg.mean=2-vector, count=3-vector) is an error","runtime (in seconds)","Pass",0.0053561,"Update PeakSegD","96106c18cec8c0e3cfcdef8b280e0157982194dd",2020-04-22 04:39:59,2020-04-22 04:51:24
+"20",2,"test-PoissonLoss.R","runtime (in seconds)","Pass",0.0209458,"Update PeakSegD","96106c18cec8c0e3cfcdef8b280e0157982194dd",2020-04-22 04:39:59,2020-04-22 04:51:24
+"21",3,"PoissonLoss(seg.mean=0, count=0) == 0","runtime (in seconds)","Pass",0.0012955,"Update PeakSegD","96106c18cec8c0e3cfcdef8b280e0157982194dd",2020-04-22 04:39:59,2020-04-22 04:51:25
+"22",3,"PoissonLoss(seg.mean=0, count>0) == Inf","runtime (in seconds)","Pass",0.0011683,"Update PeakSegD","96106c18cec8c0e3cfcdef8b280e0157982194dd",2020-04-22 04:39:59,2020-04-22 04:51:25
+"23",3,"PoissonLoss(seg.mean<0) undefined","runtime (in seconds)","Pass",0.0052204,"Update PeakSegD","96106c18cec8c0e3cfcdef8b280e0157982194dd",2020-04-22 04:39:59,2020-04-22 04:51:25
+"24",3,"PoissonLoss(weight<0) undefined","runtime (in seconds)","Pass",0.0057767,"Update PeakSegD","96106c18cec8c0e3cfcdef8b280e0157982194dd",2020-04-22 04:39:59,2020-04-22 04:51:26
+"25",3,"PoissonLoss(count=2.5) is 0","runtime (in seconds)","Pass",0.0012022,"Update PeakSegD","96106c18cec8c0e3cfcdef8b280e0157982194dd",2020-04-22 04:39:59,2020-04-22 04:51:26
+"26",3,"PoissonLoss(count= -2) is 0","runtime (in seconds)","Pass",0.001056,"Update PeakSegD","96106c18cec8c0e3cfcdef8b280e0157982194dd",2020-04-22 04:39:59,2020-04-22 04:51:26
+"27",3,"PoissonLoss(count=1 or 0) == -dpois(log=TRUE)","runtime (in seconds)","Pass",0.0019015,"Update PeakSegD","96106c18cec8c0e3cfcdef8b280e0157982194dd",2020-04-22 04:39:59,2020-04-22 04:51:26
+"28",3,"PoissonLoss(seg.mean=scalar, count=vector) is fine","runtime (in seconds)","Pass",0.002323,"Update PeakSegD","96106c18cec8c0e3cfcdef8b280e0157982194dd",2020-04-22 04:39:59,2020-04-22 04:51:27
+"29",3,"PoissonLoss(seg.mean=2-vector, count=3-vector) is an error","runtime (in seconds)","Pass",0.0055993,"Update PeakSegD","96106c18cec8c0e3cfcdef8b280e0157982194dd",2020-04-22 04:39:59,2020-04-22 04:51:27
+"30",3,"test-PoissonLoss.R","runtime (in seconds)","Pass",0.0222873,"Update PeakSegD","96106c18cec8c0e3cfcdef8b280e0157982194dd",2020-04-22 04:39:59,2020-04-22 04:51:27
+"31",1,"PoissonLoss(seg.mean=0, count=0) == 0","runtime (in seconds)","Pass",0.0012715,"Benchmark Resul","35ea2ff65aff01854553804fa4578e6157e23b2b",2020-04-22 04:31:47,2020-04-22 04:51:28
+"32",1,"PoissonLoss(seg.mean=0, count>0) == Inf","runtime (in seconds)","Pass",0.0010987,"Benchmark Resul","35ea2ff65aff01854553804fa4578e6157e23b2b",2020-04-22 04:31:47,2020-04-22 04:51:28
+"33",1,"PoissonLoss(seg.mean<0) undefined","runtime (in seconds)","Pass",0.0050073,"Benchmark Resul","35ea2ff65aff01854553804fa4578e6157e23b2b",2020-04-22 04:31:47,2020-04-22 04:51:28
+"34",1,"PoissonLoss(weight<0) undefined","runtime (in seconds)","Pass",0.0049004,"Benchmark Resul","35ea2ff65aff01854553804fa4578e6157e23b2b",2020-04-22 04:31:47,2020-04-22 04:51:29
+"35",1,"PoissonLoss(count=2.5) is 0","runtime (in seconds)","Pass",0.0011156,"Benchmark Resul","35ea2ff65aff01854553804fa4578e6157e23b2b",2020-04-22 04:31:47,2020-04-22 04:51:29
+"36",1,"PoissonLoss(count= -2) is 0","runtime (in seconds)","Pass",0.0011588,"Benchmark Resul","35ea2ff65aff01854553804fa4578e6157e23b2b",2020-04-22 04:31:47,2020-04-22 04:51:29
+"37",1,"PoissonLoss(count=1 or 0) == -dpois(log=TRUE)","runtime (in seconds)","Pass",0.0018037,"Benchmark Resul","35ea2ff65aff01854553804fa4578e6157e23b2b",2020-04-22 04:31:47,2020-04-22 04:51:29
+"38",1,"PoissonLoss(seg.mean=scalar, count=vector) is fine","runtime (in seconds)","Pass",0.0018721,"Benchmark Resul","35ea2ff65aff01854553804fa4578e6157e23b2b",2020-04-22 04:31:47,2020-04-22 04:51:30
+"39",1,"PoissonLoss(seg.mean=2-vector, count=3-vector) is an error","runtime (in seconds)","Pass",0.0055379,"Benchmark Resul","35ea2ff65aff01854553804fa4578e6157e23b2b",2020-04-22 04:31:47,2020-04-22 04:51:30
+"40",1,"test-PoissonLoss.R","runtime (in seconds)","Pass",0.020286,"Benchmark Resul","35ea2ff65aff01854553804fa4578e6157e23b2b",2020-04-22 04:31:47,2020-04-22 04:51:30
+"41",2,"PoissonLoss(seg.mean=0, count=0) == 0","runtime (in seconds)","Pass",0.0012204,"Benchmark Resul","35ea2ff65aff01854553804fa4578e6157e23b2b",2020-04-22 04:31:47,2020-04-22 04:51:31
+"42",2,"PoissonLoss(seg.mean=0, count>0) == Inf","runtime (in seconds)","Pass",0.0011446,"Benchmark Resul","35ea2ff65aff01854553804fa4578e6157e23b2b",2020-04-22 04:31:47,2020-04-22 04:51:31
+"43",2,"PoissonLoss(seg.mean<0) undefined","runtime (in seconds)","Pass",0.0055918,"Benchmark Resul","35ea2ff65aff01854553804fa4578e6157e23b2b",2020-04-22 04:31:47,2020-04-22 04:51:31
+"44",2,"PoissonLoss(weight<0) undefined","runtime (in seconds)","Pass",0.0050489,"Benchmark Resul","35ea2ff65aff01854553804fa4578e6157e23b2b",2020-04-22 04:31:47,2020-04-22 04:51:32
+"45",2,"PoissonLoss(count=2.5) is 0","runtime (in seconds)","Pass",0.0013881,"Benchmark Resul","35ea2ff65aff01854553804fa4578e6157e23b2b",2020-04-22 04:31:47,2020-04-22 04:51:32
+"46",2,"PoissonLoss(count= -2) is 0","runtime (in seconds)","Pass",0.0010975,"Benchmark Resul","35ea2ff65aff01854553804fa4578e6157e23b2b",2020-04-22 04:31:47,2020-04-22 04:51:32
+"47",2,"PoissonLoss(count=1 or 0) == -dpois(log=TRUE)","runtime (in seconds)","Pass",0.0019733,"Benchmark Resul","35ea2ff65aff01854553804fa4578e6157e23b2b",2020-04-22 04:31:47,2020-04-22 04:51:33
+"48",2,"PoissonLoss(seg.mean=scalar, count=vector) is fine","runtime (in seconds)","Pass",0.0019836,"Benchmark Resul","35ea2ff65aff01854553804fa4578e6157e23b2b",2020-04-22 04:31:47,2020-04-22 04:51:33
+"49",2,"PoissonLoss(seg.mean=2-vector, count=3-vector) is an error","runtime (in seconds)","Pass",0.0054611,"Benchmark Resul","35ea2ff65aff01854553804fa4578e6157e23b2b",2020-04-22 04:31:47,2020-04-22 04:51:33
+"50",2,"test-PoissonLoss.R","runtime (in seconds)","Pass",0.0213462,"Benchmark Resul","35ea2ff65aff01854553804fa4578e6157e23b2b",2020-04-22 04:31:47,2020-04-22 04:51:33
+"51",3,"PoissonLoss(seg.mean=0, count=0) == 0","runtime (in seconds)","Pass",0.001297,"Benchmark Resul","35ea2ff65aff01854553804fa4578e6157e23b2b",2020-04-22 04:31:47,2020-04-22 04:51:34
+"52",3,"PoissonLoss(seg.mean=0, count>0) == Inf","runtime (in seconds)","Pass",0.0013338,"Benchmark Resul","35ea2ff65aff01854553804fa4578e6157e23b2b",2020-04-22 04:31:47,2020-04-22 04:51:34
+"53",3,"PoissonLoss(seg.mean<0) undefined","runtime (in seconds)","Pass",0.0057283,"Benchmark Resul","35ea2ff65aff01854553804fa4578e6157e23b2b",2020-04-22 04:31:47,2020-04-22 04:51:35
+"54",3,"PoissonLoss(weight<0) undefined","runtime (in seconds)","Pass",0.0052166,"Benchmark Resul","35ea2ff65aff01854553804fa4578e6157e23b2b",2020-04-22 04:31:47,2020-04-22 04:51:35
+"55",3,"PoissonLoss(count=2.5) is 0","runtime (in seconds)","Pass",0.0014081,"Benchmark Resul","35ea2ff65aff01854553804fa4578e6157e23b2b",2020-04-22 04:31:47,2020-04-22 04:51:35
+"56",3,"PoissonLoss(count= -2) is 0","runtime (in seconds)","Pass",0.0012138,"Benchmark Resul","35ea2ff65aff01854553804fa4578e6157e23b2b",2020-04-22 04:31:47,2020-04-22 04:51:35
+"57",3,"PoissonLoss(count=1 or 0) == -dpois(log=TRUE)","runtime (in seconds)","Pass",0.0018595,"Benchmark Resul","35ea2ff65aff01854553804fa4578e6157e23b2b",2020-04-22 04:31:47,2020-04-22 04:51:36
+"58",3,"PoissonLoss(seg.mean=scalar, count=vector) is fine","runtime (in seconds)","Pass",0.0026108,"Benchmark Resul","35ea2ff65aff01854553804fa4578e6157e23b2b",2020-04-22 04:31:47,2020-04-22 04:51:36
+"59",3,"PoissonLoss(seg.mean=2-vector, count=3-vector) is an error","runtime (in seconds)","Pass",0.0050168,"Benchmark Resul","35ea2ff65aff01854553804fa4578e6157e23b2b",2020-04-22 04:31:47,2020-04-22 04:51:36
+"60",3,"test-PoissonLoss.R","runtime (in seconds)","Pass",0.0214156,"Benchmark Resul","35ea2ff65aff01854553804fa4578e6157e23b2b",2020-04-22 04:31:47,2020-04-22 04:51:36
+"61",1,"PoissonLoss(seg.mean=0, count=0) == 0","runtime (in seconds)","Pass",0.0011399,"Update testthat","8f7a4deec42ff40841f99f30a3853f384495f8a2",2020-04-22 04:04:17,2020-04-22 04:51:37
+"62",1,"PoissonLoss(seg.mean=0, count>0) == Inf","runtime (in seconds)","Pass",0.0012055,"Update testthat","8f7a4deec42ff40841f99f30a3853f384495f8a2",2020-04-22 04:04:17,2020-04-22 04:51:37
+"63",1,"PoissonLoss(seg.mean<0) undefined","runtime (in seconds)","Pass",0.0054039,"Update testthat","8f7a4deec42ff40841f99f30a3853f384495f8a2",2020-04-22 04:04:17,2020-04-22 04:51:38
+"64",1,"PoissonLoss(weight<0) undefined","runtime (in seconds)","Pass",0.005197,"Update testthat","8f7a4deec42ff40841f99f30a3853f384495f8a2",2020-04-22 04:04:17,2020-04-22 04:51:38
+"65",1,"PoissonLoss(count=2.5) is 0","runtime (in seconds)","Pass",0.0010523,"Update testthat","8f7a4deec42ff40841f99f30a3853f384495f8a2",2020-04-22 04:04:17,2020-04-22 04:51:38
+"66",1,"PoissonLoss(count= -2) is 0","runtime (in seconds)","Pass",0.0010237,"Update testthat","8f7a4deec42ff40841f99f30a3853f384495f8a2",2020-04-22 04:04:17,2020-04-22 04:51:38
+"67",1,"PoissonLoss(count=1 or 0) == -dpois(log=TRUE)","runtime (in seconds)","Pass",0.0018072,"Update testthat","8f7a4deec42ff40841f99f30a3853f384495f8a2",2020-04-22 04:04:17,2020-04-22 04:51:39
+"68",1,"PoissonLoss(seg.mean=scalar, count=vector) is fine","runtime (in seconds)","Pass",0.0017989,"Update testthat","8f7a4deec42ff40841f99f30a3853f384495f8a2",2020-04-22 04:04:17,2020-04-22 04:51:39
+"69",1,"PoissonLoss(seg.mean=2-vector, count=3-vector) is an error","runtime (in seconds)","Pass",0.0055386,"Update testthat","8f7a4deec42ff40841f99f30a3853f384495f8a2",2020-04-22 04:04:17,2020-04-22 04:51:39
+"70",1,"test-PoissonLoss.R","runtime (in seconds)","Pass",0.0213819,"Update testthat","8f7a4deec42ff40841f99f30a3853f384495f8a2",2020-04-22 04:04:17,2020-04-22 04:51:39
+"71",2,"PoissonLoss(seg.mean=0, count=0) == 0","runtime (in seconds)","Pass",0.001091,"Update testthat","8f7a4deec42ff40841f99f30a3853f384495f8a2",2020-04-22 04:04:17,2020-04-22 04:51:40
+"72",2,"PoissonLoss(seg.mean=0, count>0) == Inf","runtime (in seconds)","Pass",0.0011155,"Update testthat","8f7a4deec42ff40841f99f30a3853f384495f8a2",2020-04-22 04:04:17,2020-04-22 04:51:40
+"73",2,"PoissonLoss(seg.mean<0) undefined","runtime (in seconds)","Pass",0.0055134,"Update testthat","8f7a4deec42ff40841f99f30a3853f384495f8a2",2020-04-22 04:04:17,2020-04-22 04:51:41
+"74",2,"PoissonLoss(weight<0) undefined","runtime (in seconds)","Pass",0.0052715,"Update testthat","8f7a4deec42ff40841f99f30a3853f384495f8a2",2020-04-22 04:04:17,2020-04-22 04:51:41
+"75",2,"PoissonLoss(count=2.5) is 0","runtime (in seconds)","Pass",0.0014144,"Update testthat","8f7a4deec42ff40841f99f30a3853f384495f8a2",2020-04-22 04:04:17,2020-04-22 04:51:41
+"76",2,"PoissonLoss(count= -2) is 0","runtime (in seconds)","Pass",0.0011667,"Update testthat","8f7a4deec42ff40841f99f30a3853f384495f8a2",2020-04-22 04:04:17,2020-04-22 04:51:41
+"77",2,"PoissonLoss(count=1 or 0) == -dpois(log=TRUE)","runtime (in seconds)","Pass",0.0017884,"Update testthat","8f7a4deec42ff40841f99f30a3853f384495f8a2",2020-04-22 04:04:17,2020-04-22 04:51:42
+"78",2,"PoissonLoss(seg.mean=scalar, count=vector) is fine","runtime (in seconds)","Pass",0.0019041,"Update testthat","8f7a4deec42ff40841f99f30a3853f384495f8a2",2020-04-22 04:04:17,2020-04-22 04:51:42
+"79",2,"PoissonLoss(seg.mean=2-vector, count=3-vector) is an error","runtime (in seconds)","Pass",0.0055596,"Update testthat","8f7a4deec42ff40841f99f30a3853f384495f8a2",2020-04-22 04:04:17,2020-04-22 04:51:42
+"80",2,"test-PoissonLoss.R","runtime (in seconds)","Pass",0.0212732,"Update testthat","8f7a4deec42ff40841f99f30a3853f384495f8a2",2020-04-22 04:04:17,2020-04-22 04:51:42
+"81",3,"PoissonLoss(seg.mean=0, count=0) == 0","runtime (in seconds)","Pass",0.0011709,"Update testthat","8f7a4deec42ff40841f99f30a3853f384495f8a2",2020-04-22 04:04:17,2020-04-22 04:51:43
+"82",3,"PoissonLoss(seg.mean=0, count>0) == Inf","runtime (in seconds)","Pass",0.00122,"Update testthat","8f7a4deec42ff40841f99f30a3853f384495f8a2",2020-04-22 04:04:17,2020-04-22 04:51:43
+"83",3,"PoissonLoss(seg.mean<0) undefined","runtime (in seconds)","Pass",0.005578,"Update testthat","8f7a4deec42ff40841f99f30a3853f384495f8a2",2020-04-22 04:04:17,2020-04-22 04:51:44
+"84",3,"PoissonLoss(weight<0) undefined","runtime (in seconds)","Pass",0.0053845,"Update testthat","8f7a4deec42ff40841f99f30a3853f384495f8a2",2020-04-22 04:04:17,2020-04-22 04:51:44
+"85",3,"PoissonLoss(count=2.5) is 0","runtime (in seconds)","Pass",0.001263,"Update testthat","8f7a4deec42ff40841f99f30a3853f384495f8a2",2020-04-22 04:04:17,2020-04-22 04:51:44
+"86",3,"PoissonLoss(count= -2) is 0","runtime (in seconds)","Pass",0.0014418,"Update testthat","8f7a4deec42ff40841f99f30a3853f384495f8a2",2020-04-22 04:04:17,2020-04-22 04:51:44
+"87",3,"PoissonLoss(count=1 or 0) == -dpois(log=TRUE)","runtime (in seconds)","Pass",0.0020291,"Update testthat","8f7a4deec42ff40841f99f30a3853f384495f8a2",2020-04-22 04:04:17,2020-04-22 04:51:45
+"88",3,"PoissonLoss(seg.mean=scalar, count=vector) is fine","runtime (in seconds)","Pass",0.0023885,"Update testthat","8f7a4deec42ff40841f99f30a3853f384495f8a2",2020-04-22 04:04:17,2020-04-22 04:51:45
+"89",3,"PoissonLoss(seg.mean=2-vector, count=3-vector) is an error","runtime (in seconds)","Pass",0.0054826,"Update testthat","8f7a4deec42ff40841f99f30a3853f384495f8a2",2020-04-22 04:04:17,2020-04-22 04:51:45
+"90",3,"test-PoissonLoss.R","runtime (in seconds)","Pass",0.0215404,"Update testthat","8f7a4deec42ff40841f99f30a3853f384495f8a2",2020-04-22 04:04:17,2020-04-22 04:51:45
+"91",1,"PoissonLoss(seg.mean=0, count=0) == 0","runtime (in seconds)","Pass",0.0010898,"Delete test-tri","24b4ee72efe23cbd0653f3c7bddc1647ee766f09",2020-04-22 04:00:16,2020-04-22 04:51:46
+"92",1,"PoissonLoss(seg.mean=0, count>0) == Inf","runtime (in seconds)","Pass",0.0011241,"Delete test-tri","24b4ee72efe23cbd0653f3c7bddc1647ee766f09",2020-04-22 04:00:16,2020-04-22 04:51:46
+"93",1,"PoissonLoss(seg.mean<0) undefined","runtime (in seconds)","Pass",0.0052419,"Delete test-tri","24b4ee72efe23cbd0653f3c7bddc1647ee766f09",2020-04-22 04:00:16,2020-04-22 04:51:47
+"94",1,"PoissonLoss(weight<0) undefined","runtime (in seconds)","Pass",0.0051952,"Delete test-tri","24b4ee72efe23cbd0653f3c7bddc1647ee766f09",2020-04-22 04:00:16,2020-04-22 04:51:47
+"95",1,"PoissonLoss(count=2.5) is 0","runtime (in seconds)","Pass",0.0012208,"Delete test-tri","24b4ee72efe23cbd0653f3c7bddc1647ee766f09",2020-04-22 04:00:16,2020-04-22 04:51:47
+"96",1,"PoissonLoss(count= -2) is 0","runtime (in seconds)","Pass",0.00111,"Delete test-tri","24b4ee72efe23cbd0653f3c7bddc1647ee766f09",2020-04-22 04:00:16,2020-04-22 04:51:47
+"97",1,"PoissonLoss(count=1 or 0) == -dpois(log=TRUE)","runtime (in seconds)","Pass",0.001849,"Delete test-tri","24b4ee72efe23cbd0653f3c7bddc1647ee766f09",2020-04-22 04:00:16,2020-04-22 04:51:48
+"98",1,"PoissonLoss(seg.mean=scalar, count=vector) is fine","runtime (in seconds)","Pass",0.0016928,"Delete test-tri","24b4ee72efe23cbd0653f3c7bddc1647ee766f09",2020-04-22 04:00:16,2020-04-22 04:51:48
+"99",1,"PoissonLoss(seg.mean=2-vector, count=3-vector) is an error","runtime (in seconds)","Pass",0.005725,"Delete test-tri","24b4ee72efe23cbd0653f3c7bddc1647ee766f09",2020-04-22 04:00:16,2020-04-22 04:51:48
+"100",1,"test-PoissonLoss.R","runtime (in seconds)","Pass",0.0207402,"Delete test-tri","24b4ee72efe23cbd0653f3c7bddc1647ee766f09",2020-04-22 04:00:16,2020-04-22 04:51:48
+"101",2,"PoissonLoss(seg.mean=0, count=0) == 0","runtime (in seconds)","Pass",0.0010823,"Delete test-tri","24b4ee72efe23cbd0653f3c7bddc1647ee766f09",2020-04-22 04:00:16,2020-04-22 04:51:49
+"102",2,"PoissonLoss(seg.mean=0, count>0) == Inf","runtime (in seconds)","Pass",0.0011655,"Delete test-tri","24b4ee72efe23cbd0653f3c7bddc1647ee766f09",2020-04-22 04:00:16,2020-04-22 04:51:49
+"103",2,"PoissonLoss(seg.mean<0) undefined","runtime (in seconds)","Pass",0.0048934,"Delete test-tri","24b4ee72efe23cbd0653f3c7bddc1647ee766f09",2020-04-22 04:00:16,2020-04-22 04:51:50
+"104",2,"PoissonLoss(weight<0) undefined","runtime (in seconds)","Pass",0.0047854,"Delete test-tri","24b4ee72efe23cbd0653f3c7bddc1647ee766f09",2020-04-22 04:00:16,2020-04-22 04:51:50
+"105",2,"PoissonLoss(count=2.5) is 0","runtime (in seconds)","Pass",0.0012,"Delete test-tri","24b4ee72efe23cbd0653f3c7bddc1647ee766f09",2020-04-22 04:00:16,2020-04-22 04:51:50
+"106",2,"PoissonLoss(count= -2) is 0","runtime (in seconds)","Pass",0.0011915,"Delete test-tri","24b4ee72efe23cbd0653f3c7bddc1647ee766f09",2020-04-22 04:00:16,2020-04-22 04:51:50
+"107",2,"PoissonLoss(count=1 or 0) == -dpois(log=TRUE)","runtime (in seconds)","Pass",0.0018611,"Delete test-tri","24b4ee72efe23cbd0653f3c7bddc1647ee766f09",2020-04-22 04:00:16,2020-04-22 04:51:51
+"108",2,"PoissonLoss(seg.mean=scalar, count=vector) is fine","runtime (in seconds)","Pass",0.0017679,"Delete test-tri","24b4ee72efe23cbd0653f3c7bddc1647ee766f09",2020-04-22 04:00:16,2020-04-22 04:51:51
+"109",2,"PoissonLoss(seg.mean=2-vector, count=3-vector) is an error","runtime (in seconds)","Pass",0.0055109,"Delete test-tri","24b4ee72efe23cbd0653f3c7bddc1647ee766f09",2020-04-22 04:00:16,2020-04-22 04:51:51
+"110",2,"test-PoissonLoss.R","runtime (in seconds)","Pass",0.0214597,"Delete test-tri","24b4ee72efe23cbd0653f3c7bddc1647ee766f09",2020-04-22 04:00:16,2020-04-22 04:51:51
+"111",3,"PoissonLoss(seg.mean=0, count=0) == 0","runtime (in seconds)","Pass",0.0012529,"Delete test-tri","24b4ee72efe23cbd0653f3c7bddc1647ee766f09",2020-04-22 04:00:16,2020-04-22 04:51:52
+"112",3,"PoissonLoss(seg.mean=0, count>0) == Inf","runtime (in seconds)","Pass",0.0010791,"Delete test-tri","24b4ee72efe23cbd0653f3c7bddc1647ee766f09",2020-04-22 04:00:16,2020-04-22 04:51:52
+"113",3,"PoissonLoss(seg.mean<0) undefined","runtime (in seconds)","Pass",0.0054648,"Delete test-tri","24b4ee72efe23cbd0653f3c7bddc1647ee766f09",2020-04-22 04:00:16,2020-04-22 04:51:53
+"114",3,"PoissonLoss(weight<0) undefined","runtime (in seconds)","Pass",0.0055593,"Delete test-tri","24b4ee72efe23cbd0653f3c7bddc1647ee766f09",2020-04-22 04:00:16,2020-04-22 04:51:53
+"115",3,"PoissonLoss(count=2.5) is 0","runtime (in seconds)","Pass",0.0010733,"Delete test-tri","24b4ee72efe23cbd0653f3c7bddc1647ee766f09",2020-04-22 04:00:16,2020-04-22 04:51:53
+"116",3,"PoissonLoss(count= -2) is 0","runtime (in seconds)","Pass",0.0011341,"Delete test-tri","24b4ee72efe23cbd0653f3c7bddc1647ee766f09",2020-04-22 04:00:16,2020-04-22 04:51:53
+"117",3,"PoissonLoss(count=1 or 0) == -dpois(log=TRUE)","runtime (in seconds)","Pass",0.0017572,"Delete test-tri","24b4ee72efe23cbd0653f3c7bddc1647ee766f09",2020-04-22 04:00:16,2020-04-22 04:51:54
+"118",3,"PoissonLoss(seg.mean=scalar, count=vector) is fine","runtime (in seconds)","Pass",0.0016432,"Delete test-tri","24b4ee72efe23cbd0653f3c7bddc1647ee766f09",2020-04-22 04:00:16,2020-04-22 04:51:54
+"119",3,"PoissonLoss(seg.mean=2-vector, count=3-vector) is an error","runtime (in seconds)","Pass",0.0055766,"Delete test-tri","24b4ee72efe23cbd0653f3c7bddc1647ee766f09",2020-04-22 04:00:16,2020-04-22 04:51:54
+"120",3,"test-PoissonLoss.R","runtime (in seconds)","Pass",0.0209926,"Delete test-tri","24b4ee72efe23cbd0653f3c7bddc1647ee766f09",2020-04-22 04:00:16,2020-04-22 04:51:54
+"121",1,"PoissonLoss(seg.mean=0, count=0) == 0","runtime (in seconds)","Pass",0.00118,"Delete test-sma","8c1d61a7615f91ed48eb3aa7683fda817389f382",2020-04-22 04:00:09,2020-04-22 04:51:55
+"122",1,"PoissonLoss(seg.mean=0, count>0) == Inf","runtime (in seconds)","Pass",0.0011977,"Delete test-sma","8c1d61a7615f91ed48eb3aa7683fda817389f382",2020-04-22 04:00:09,2020-04-22 04:51:55
+"123",1,"PoissonLoss(seg.mean<0) undefined","runtime (in seconds)","Pass",0.005619,"Delete test-sma","8c1d61a7615f91ed48eb3aa7683fda817389f382",2020-04-22 04:00:09,2020-04-22 04:51:56
+"124",1,"PoissonLoss(weight<0) undefined","runtime (in seconds)","Pass",0.0058033,"Delete test-sma","8c1d61a7615f91ed48eb3aa7683fda817389f382",2020-04-22 04:00:09,2020-04-22 04:51:56
+"125",1,"PoissonLoss(count=2.5) is 0","runtime (in seconds)","Pass",0.0010954,"Delete test-sma","8c1d61a7615f91ed48eb3aa7683fda817389f382",2020-04-22 04:00:09,2020-04-22 04:51:56
+"126",1,"PoissonLoss(count= -2) is 0","runtime (in seconds)","Pass",0.0011126,"Delete test-sma","8c1d61a7615f91ed48eb3aa7683fda817389f382",2020-04-22 04:00:09,2020-04-22 04:51:56
+"127",1,"PoissonLoss(count=1 or 0) == -dpois(log=TRUE)","runtime (in seconds)","Pass",0.0018891,"Delete test-sma","8c1d61a7615f91ed48eb3aa7683fda817389f382",2020-04-22 04:00:09,2020-04-22 04:51:57
+"128",1,"PoissonLoss(seg.mean=scalar, count=vector) is fine","runtime (in seconds)","Pass",0.0018887,"Delete test-sma","8c1d61a7615f91ed48eb3aa7683fda817389f382",2020-04-22 04:00:09,2020-04-22 04:51:57
+"129",1,"PoissonLoss(seg.mean=2-vector, count=3-vector) is an error","runtime (in seconds)","Pass",0.0053064,"Delete test-sma","8c1d61a7615f91ed48eb3aa7683fda817389f382",2020-04-22 04:00:09,2020-04-22 04:51:57
+"130",1,"test-PoissonLoss.R","runtime (in seconds)","Pass",0.022179,"Delete test-sma","8c1d61a7615f91ed48eb3aa7683fda817389f382",2020-04-22 04:00:09,2020-04-22 04:51:57
+"131",2,"PoissonLoss(seg.mean=0, count=0) == 0","runtime (in seconds)","Pass",0.0012622,"Delete test-sma","8c1d61a7615f91ed48eb3aa7683fda817389f382",2020-04-22 04:00:09,2020-04-22 04:51:58
+"132",2,"PoissonLoss(seg.mean=0, count>0) == Inf","runtime (in seconds)","Pass",0.0012873,"Delete test-sma","8c1d61a7615f91ed48eb3aa7683fda817389f382",2020-04-22 04:00:09,2020-04-22 04:51:58
+"133",2,"PoissonLoss(seg.mean<0) undefined","runtime (in seconds)","Pass",0.005365,"Delete test-sma","8c1d61a7615f91ed48eb3aa7683fda817389f382",2020-04-22 04:00:09,2020-04-22 04:51:59
+"134",2,"PoissonLoss(weight<0) undefined","runtime (in seconds)","Pass",0.0058319,"Delete test-sma","8c1d61a7615f91ed48eb3aa7683fda817389f382",2020-04-22 04:00:09,2020-04-22 04:51:59
+"135",2,"PoissonLoss(count=2.5) is 0","runtime (in seconds)","Pass",0.0012491,"Delete test-sma","8c1d61a7615f91ed48eb3aa7683fda817389f382",2020-04-22 04:00:09,2020-04-22 04:51:59
+"136",2,"PoissonLoss(count= -2) is 0","runtime (in seconds)","Pass",0.0011514,"Delete test-sma","8c1d61a7615f91ed48eb3aa7683fda817389f382",2020-04-22 04:00:09,2020-04-22 04:51:59
+"137",2,"PoissonLoss(count=1 or 0) == -dpois(log=TRUE)","runtime (in seconds)","Pass",0.0018705,"Delete test-sma","8c1d61a7615f91ed48eb3aa7683fda817389f382",2020-04-22 04:00:09,2020-04-22 04:52:00
+"138",2,"PoissonLoss(seg.mean=scalar, count=vector) is fine","runtime (in seconds)","Pass",0.001674,"Delete test-sma","8c1d61a7615f91ed48eb3aa7683fda817389f382",2020-04-22 04:00:09,2020-04-22 04:52:00
+"139",2,"PoissonLoss(seg.mean=2-vector, count=3-vector) is an error","runtime (in seconds)","Pass",0.0052269,"Delete test-sma","8c1d61a7615f91ed48eb3aa7683fda817389f382",2020-04-22 04:00:09,2020-04-22 04:52:00
+"140",2,"test-PoissonLoss.R","runtime (in seconds)","Pass",0.0236128,"Delete test-sma","8c1d61a7615f91ed48eb3aa7683fda817389f382",2020-04-22 04:00:09,2020-04-22 04:52:00
+"141",3,"PoissonLoss(seg.mean=0, count=0) == 0","runtime (in seconds)","Pass",0.0010786,"Delete test-sma","8c1d61a7615f91ed48eb3aa7683fda817389f382",2020-04-22 04:00:09,2020-04-22 04:52:01
+"142",3,"PoissonLoss(seg.mean=0, count>0) == Inf","runtime (in seconds)","Pass",0.0012631,"Delete test-sma","8c1d61a7615f91ed48eb3aa7683fda817389f382",2020-04-22 04:00:09,2020-04-22 04:52:01
+"143",3,"PoissonLoss(seg.mean<0) undefined","runtime (in seconds)","Pass",0.0053002,"Delete test-sma","8c1d61a7615f91ed48eb3aa7683fda817389f382",2020-04-22 04:00:09,2020-04-22 04:52:02
+"144",3,"PoissonLoss(weight<0) undefined","runtime (in seconds)","Pass",0.0051,"Delete test-sma","8c1d61a7615f91ed48eb3aa7683fda817389f382",2020-04-22 04:00:09,2020-04-22 04:52:02
+"145",3,"PoissonLoss(count=2.5) is 0","runtime (in seconds)","Pass",0.0010816,"Delete test-sma","8c1d61a7615f91ed48eb3aa7683fda817389f382",2020-04-22 04:00:09,2020-04-22 04:52:02
+"146",3,"PoissonLoss(count= -2) is 0","runtime (in seconds)","Pass",0.001107,"Delete test-sma","8c1d61a7615f91ed48eb3aa7683fda817389f382",2020-04-22 04:00:09,2020-04-22 04:52:03
+"147",3,"PoissonLoss(count=1 or 0) == -dpois(log=TRUE)","runtime (in seconds)","Pass",0.0019388,"Delete test-sma","8c1d61a7615f91ed48eb3aa7683fda817389f382",2020-04-22 04:00:09,2020-04-22 04:52:03
+"148",3,"PoissonLoss(seg.mean=scalar, count=vector) is fine","runtime (in seconds)","Pass",0.001709,"Delete test-sma","8c1d61a7615f91ed48eb3aa7683fda817389f382",2020-04-22 04:00:09,2020-04-22 04:52:03
+"149",3,"PoissonLoss(seg.mean=2-vector, count=3-vector) is an error","runtime (in seconds)","Pass",0.0052707,"Delete test-sma","8c1d61a7615f91ed48eb3aa7683fda817389f382",2020-04-22 04:00:09,2020-04-22 04:52:03
+"150",3,"test-PoissonLoss.R","runtime (in seconds)","Pass",0.0214112,"Delete test-sma","8c1d61a7615f91ed48eb3aa7683fda817389f382",2020-04-22 04:00:09,2020-04-22 04:52:03
+"151",1,"infeasible model generates warning","runtime (in seconds)","Pass",0.0940086,"Update PeakSegD","96106c18cec8c0e3cfcdef8b280e0157982194dd",2020-04-22 04:39:59,2020-04-22 04:52:04
+"152",1,"test-small.R","runtime (in seconds)","Pass",0.0358825,"Update PeakSegD","96106c18cec8c0e3cfcdef8b280e0157982194dd",2020-04-22 04:39:59,2020-04-22 04:52:04
+"153",2,"infeasible model generates warning","runtime (in seconds)","Pass",0.0053768,"Update PeakSegD","96106c18cec8c0e3cfcdef8b280e0157982194dd",2020-04-22 04:39:59,2020-04-22 04:52:05
+"154",2,"test-small.R","runtime (in seconds)","Pass",0.0317625,"Update PeakSegD","96106c18cec8c0e3cfcdef8b280e0157982194dd",2020-04-22 04:39:59,2020-04-22 04:52:05
+"155",3,"infeasible model generates warning","runtime (in seconds)","Pass",0.0049039,"Update PeakSegD","96106c18cec8c0e3cfcdef8b280e0157982194dd",2020-04-22 04:39:59,2020-04-22 04:52:06
+"156",3,"test-small.R","runtime (in seconds)","Pass",0.0325532,"Update PeakSegD","96106c18cec8c0e3cfcdef8b280e0157982194dd",2020-04-22 04:39:59,2020-04-22 04:52:06
+"157",1,"infeasible model generates warning","runtime (in seconds)","Pass",0.0044758,"Benchmark Resul","35ea2ff65aff01854553804fa4578e6157e23b2b",2020-04-22 04:31:47,2020-04-22 04:52:07
+"158",1,"test-small.R","runtime (in seconds)","Pass",0.0313386,"Benchmark Resul","35ea2ff65aff01854553804fa4578e6157e23b2b",2020-04-22 04:31:47,2020-04-22 04:52:07
+"159",2,"infeasible model generates warning","runtime (in seconds)","Pass",0.0046915,"Benchmark Resul","35ea2ff65aff01854553804fa4578e6157e23b2b",2020-04-22 04:31:47,2020-04-22 04:52:08
+"160",2,"test-small.R","runtime (in seconds)","Pass",0.0335753,"Benchmark Resul","35ea2ff65aff01854553804fa4578e6157e23b2b",2020-04-22 04:31:47,2020-04-22 04:52:08
+"161",3,"infeasible model generates warning","runtime (in seconds)","Pass",0.0045781,"Benchmark Resul","35ea2ff65aff01854553804fa4578e6157e23b2b",2020-04-22 04:31:47,2020-04-22 04:52:09
+"162",3,"test-small.R","runtime (in seconds)","Pass",0.0324918,"Benchmark Resul","35ea2ff65aff01854553804fa4578e6157e23b2b",2020-04-22 04:31:47,2020-04-22 04:52:09
+"163",1,"infeasible model generates warning","runtime (in seconds)","Pass",0.0055824,"Update testthat","8f7a4deec42ff40841f99f30a3853f384495f8a2",2020-04-22 04:04:17,2020-04-22 04:52:10
+"164",1,"test-small.R","runtime (in seconds)","Pass",0.032371,"Update testthat","8f7a4deec42ff40841f99f30a3853f384495f8a2",2020-04-22 04:04:17,2020-04-22 04:52:10
+"165",2,"infeasible model generates warning","runtime (in seconds)","Pass",0.0048602,"Update testthat","8f7a4deec42ff40841f99f30a3853f384495f8a2",2020-04-22 04:04:17,2020-04-22 04:52:11
+"166",2,"test-small.R","runtime (in seconds)","Pass",0.0339631,"Update testthat","8f7a4deec42ff40841f99f30a3853f384495f8a2",2020-04-22 04:04:17,2020-04-22 04:52:11
+"167",3,"infeasible model generates warning","runtime (in seconds)","Pass",0.0044442,"Update testthat","8f7a4deec42ff40841f99f30a3853f384495f8a2",2020-04-22 04:04:17,2020-04-22 04:52:12
+"168",3,"test-small.R","runtime (in seconds)","Pass",0.0334456,"Update testthat","8f7a4deec42ff40841f99f30a3853f384495f8a2",2020-04-22 04:04:17,2020-04-22 04:52:12
+"169",1,"infeasible model generates warning","runtime (in seconds)","Pass",0.0044697,"Delete test-tri","24b4ee72efe23cbd0653f3c7bddc1647ee766f09",2020-04-22 04:00:16,2020-04-22 04:52:13
+"170",1,"test-small.R","runtime (in seconds)","Pass",0.0336119,"Delete test-tri","24b4ee72efe23cbd0653f3c7bddc1647ee766f09",2020-04-22 04:00:16,2020-04-22 04:52:13
+"171",2,"infeasible model generates warning","runtime (in seconds)","Pass",0.0046343,"Delete test-tri","24b4ee72efe23cbd0653f3c7bddc1647ee766f09",2020-04-22 04:00:16,2020-04-22 04:52:14
+"172",2,"test-small.R","runtime (in seconds)","Pass",0.0300977,"Delete test-tri","24b4ee72efe23cbd0653f3c7bddc1647ee766f09",2020-04-22 04:00:16,2020-04-22 04:52:14
+"173",3,"infeasible model generates warning","runtime (in seconds)","Pass",0.0045348,"Delete test-tri","24b4ee72efe23cbd0653f3c7bddc1647ee766f09",2020-04-22 04:00:16,2020-04-22 04:52:15
+"174",3,"test-small.R","runtime (in seconds)","Pass",0.0325999,"Delete test-tri","24b4ee72efe23cbd0653f3c7bddc1647ee766f09",2020-04-22 04:00:16,2020-04-22 04:52:15
+"175",1,"infeasible model generates warning","runtime (in seconds)","Pass",0.0048998,"Delete test-sma","8c1d61a7615f91ed48eb3aa7683fda817389f382",2020-04-22 04:00:09,2020-04-22 04:52:15
+"176",1,"test-small.R","runtime (in seconds)","Pass",0.0319322,"Delete test-sma","8c1d61a7615f91ed48eb3aa7683fda817389f382",2020-04-22 04:00:09,2020-04-22 04:52:15
+"177",2,"infeasible model generates warning","runtime (in seconds)","Pass",0.0049817,"Delete test-sma","8c1d61a7615f91ed48eb3aa7683fda817389f382",2020-04-22 04:00:09,2020-04-22 04:52:16
+"178",2,"test-small.R","runtime (in seconds)","Pass",0.0337817,"Delete test-sma","8c1d61a7615f91ed48eb3aa7683fda817389f382",2020-04-22 04:00:09,2020-04-22 04:52:16
+"179",3,"infeasible model generates warning","runtime (in seconds)","Pass",0.0045231,"Delete test-sma","8c1d61a7615f91ed48eb3aa7683fda817389f382",2020-04-22 04:00:09,2020-04-22 04:52:17
+"180",3,"test-small.R","runtime (in seconds)","Pass",0.0306117,"Delete test-sma","8c1d61a7615f91ed48eb3aa7683fda817389f382",2020-04-22 04:00:09,2020-04-22 04:52:17
+"181",1,"infeasible models","runtime (in seconds)","Pass",0.0099555,"Update PeakSegD","96106c18cec8c0e3cfcdef8b280e0157982194dd",2020-04-22 04:39:59,2020-04-22 04:52:18
+"182",1,"feasible models","runtime (in seconds)","Pass",0.0026039,"Update PeakSegD","96106c18cec8c0e3cfcdef8b280e0157982194dd",2020-04-22 04:39:59,2020-04-22 04:52:19
+"183",1,"solver cost same as PoissonLoss","runtime (in seconds)","Pass",0.0045549,"Update PeakSegD","96106c18cec8c0e3cfcdef8b280e0157982194dd",2020-04-22 04:39:59,2020-04-22 04:52:19
+"184",1,"no feasible model for paper data set, forward","runtime (in seconds)","Pass",0.0053205,"Update PeakSegD","96106c18cec8c0e3cfcdef8b280e0157982194dd",2020-04-22 04:39:59,2020-04-22 04:52:19
+"185",1,"sub-optimal model for paper data set, reverse","runtime (in seconds)","Pass",0.0010582,"Update PeakSegD","96106c18cec8c0e3cfcdef8b280e0157982194dd",2020-04-22 04:39:59,2020-04-22 04:52:19
+"186",1,"test-trivial.R","runtime (in seconds)","Pass",0.0225178,"Update PeakSegD","96106c18cec8c0e3cfcdef8b280e0157982194dd",2020-04-22 04:39:59,2020-04-22 04:52:19
+"187",2,"infeasible models","runtime (in seconds)","Pass",0.0108273,"Update PeakSegD","96106c18cec8c0e3cfcdef8b280e0157982194dd",2020-04-22 04:39:59,2020-04-22 04:52:20
+"188",2,"feasible models","runtime (in seconds)","Pass",0.0026319,"Update PeakSegD","96106c18cec8c0e3cfcdef8b280e0157982194dd",2020-04-22 04:39:59,2020-04-22 04:52:21
+"189",2,"solver cost same as PoissonLoss","runtime (in seconds)","Pass",0.0040911,"Update PeakSegD","96106c18cec8c0e3cfcdef8b280e0157982194dd",2020-04-22 04:39:59,2020-04-22 04:52:21
+"190",2,"no feasible model for paper data set, forward","runtime (in seconds)","Pass",0.0051522,"Update PeakSegD","96106c18cec8c0e3cfcdef8b280e0157982194dd",2020-04-22 04:39:59,2020-04-22 04:52:21
+"191",2,"sub-optimal model for paper data set, reverse","runtime (in seconds)","Pass",0.0010462,"Update PeakSegD","96106c18cec8c0e3cfcdef8b280e0157982194dd",2020-04-22 04:39:59,2020-04-22 04:52:21
+"192",2,"test-trivial.R","runtime (in seconds)","Pass",0.0219557,"Update PeakSegD","96106c18cec8c0e3cfcdef8b280e0157982194dd",2020-04-22 04:39:59,2020-04-22 04:52:21
+"193",3,"infeasible models","runtime (in seconds)","Pass",0.009692,"Update PeakSegD","96106c18cec8c0e3cfcdef8b280e0157982194dd",2020-04-22 04:39:59,2020-04-22 04:52:22
+"194",3,"feasible models","runtime (in seconds)","Pass",0.0026291,"Update PeakSegD","96106c18cec8c0e3cfcdef8b280e0157982194dd",2020-04-22 04:39:59,2020-04-22 04:52:22
+"195",3,"solver cost same as PoissonLoss","runtime (in seconds)","Pass",0.0041929,"Update PeakSegD","96106c18cec8c0e3cfcdef8b280e0157982194dd",2020-04-22 04:39:59,2020-04-22 04:52:23
+"196",3,"no feasible model for paper data set, forward","runtime (in seconds)","Pass",0.0053657,"Update PeakSegD","96106c18cec8c0e3cfcdef8b280e0157982194dd",2020-04-22 04:39:59,2020-04-22 04:52:23
+"197",3,"sub-optimal model for paper data set, reverse","runtime (in seconds)","Pass",0.0010731,"Update PeakSegD","96106c18cec8c0e3cfcdef8b280e0157982194dd",2020-04-22 04:39:59,2020-04-22 04:52:23
+"198",3,"test-trivial.R","runtime (in seconds)","Pass",0.0222947,"Update PeakSegD","96106c18cec8c0e3cfcdef8b280e0157982194dd",2020-04-22 04:39:59,2020-04-22 04:52:23
+"199",1,"infeasible models","runtime (in seconds)","Pass",0.0105136,"Benchmark Resul","35ea2ff65aff01854553804fa4578e6157e23b2b",2020-04-22 04:31:47,2020-04-22 04:52:24
+"200",1,"feasible models","runtime (in seconds)","Pass",0.003126,"Benchmark Resul","35ea2ff65aff01854553804fa4578e6157e23b2b",2020-04-22 04:31:47,2020-04-22 04:52:24
+"201",1,"solver cost same as PoissonLoss","runtime (in seconds)","Pass",0.0047704,"Benchmark Resul","35ea2ff65aff01854553804fa4578e6157e23b2b",2020-04-22 04:31:47,2020-04-22 04:52:25
+"202",1,"no feasible model for paper data set, forward","runtime (in seconds)","Pass",0.0054244,"Benchmark Resul","35ea2ff65aff01854553804fa4578e6157e23b2b",2020-04-22 04:31:47,2020-04-22 04:52:25
+"203",1,"sub-optimal model for paper data set, reverse","runtime (in seconds)","Pass",0.0011666,"Benchmark Resul","35ea2ff65aff01854553804fa4578e6157e23b2b",2020-04-22 04:31:47,2020-04-22 04:52:25
+"204",1,"test-trivial.R","runtime (in seconds)","Pass",0.0228722,"Benchmark Resul","35ea2ff65aff01854553804fa4578e6157e23b2b",2020-04-22 04:31:47,2020-04-22 04:52:25
+"205",2,"infeasible models","runtime (in seconds)","Pass",0.0094277,"Benchmark Resul","35ea2ff65aff01854553804fa4578e6157e23b2b",2020-04-22 04:31:47,2020-04-22 04:52:26
+"206",2,"feasible models","runtime (in seconds)","Pass",0.0026703,"Benchmark Resul","35ea2ff65aff01854553804fa4578e6157e23b2b",2020-04-22 04:31:47,2020-04-22 04:52:26
+"207",2,"solver cost same as PoissonLoss","runtime (in seconds)","Pass",0.0040622,"Benchmark Resul","35ea2ff65aff01854553804fa4578e6157e23b2b",2020-04-22 04:31:47,2020-04-22 04:52:27
+"208",2,"no feasible model for paper data set, forward","runtime (in seconds)","Pass",0.005119,"Benchmark Resul","35ea2ff65aff01854553804fa4578e6157e23b2b",2020-04-22 04:31:47,2020-04-22 04:52:27
+"209",2,"sub-optimal model for paper data set, reverse","runtime (in seconds)","Pass",0.0010196,"Benchmark Resul","35ea2ff65aff01854553804fa4578e6157e23b2b",2020-04-22 04:31:47,2020-04-22 04:52:27
+"210",2,"test-trivial.R","runtime (in seconds)","Pass",0.0227785,"Benchmark Resul","35ea2ff65aff01854553804fa4578e6157e23b2b",2020-04-22 04:31:47,2020-04-22 04:52:27
+"211",3,"infeasible models","runtime (in seconds)","Pass",0.0095801,"Benchmark Resul","35ea2ff65aff01854553804fa4578e6157e23b2b",2020-04-22 04:31:47,2020-04-22 04:52:28
+"212",3,"feasible models","runtime (in seconds)","Pass",0.0025354,"Benchmark Resul","35ea2ff65aff01854553804fa4578e6157e23b2b",2020-04-22 04:31:47,2020-04-22 04:52:28
+"213",3,"solver cost same as PoissonLoss","runtime (in seconds)","Pass",0.0044881,"Benchmark Resul","35ea2ff65aff01854553804fa4578e6157e23b2b",2020-04-22 04:31:47,2020-04-22 04:52:29
+"214",3,"no feasible model for paper data set, forward","runtime (in seconds)","Pass",0.0053924,"Benchmark Resul","35ea2ff65aff01854553804fa4578e6157e23b2b",2020-04-22 04:31:47,2020-04-22 04:52:29
+"215",3,"sub-optimal model for paper data set, reverse","runtime (in seconds)","Pass",0.0012819,"Benchmark Resul","35ea2ff65aff01854553804fa4578e6157e23b2b",2020-04-22 04:31:47,2020-04-22 04:52:29
+"216",3,"test-trivial.R","runtime (in seconds)","Pass",0.0219486,"Benchmark Resul","35ea2ff65aff01854553804fa4578e6157e23b2b",2020-04-22 04:31:47,2020-04-22 04:52:29
+"217",1,"infeasible models","runtime (in seconds)","Pass",0.00969,"Update testthat","8f7a4deec42ff40841f99f30a3853f384495f8a2",2020-04-22 04:04:17,2020-04-22 04:52:30
+"218",1,"feasible models","runtime (in seconds)","Pass",0.0026636,"Update testthat","8f7a4deec42ff40841f99f30a3853f384495f8a2",2020-04-22 04:04:17,2020-04-22 04:52:30
+"219",1,"solver cost same as PoissonLoss","runtime (in seconds)","Pass",0.0039901,"Update testthat","8f7a4deec42ff40841f99f30a3853f384495f8a2",2020-04-22 04:04:17,2020-04-22 04:52:31
+"220",1,"no feasible model for paper data set, forward","runtime (in seconds)","Pass",0.0055767,"Update testthat","8f7a4deec42ff40841f99f30a3853f384495f8a2",2020-04-22 04:04:17,2020-04-22 04:52:31
+"221",1,"sub-optimal model for paper data set, reverse","runtime (in seconds)","Pass",0.0011042,"Update testthat","8f7a4deec42ff40841f99f30a3853f384495f8a2",2020-04-22 04:04:17,2020-04-22 04:52:31
+"222",1,"test-trivial.R","runtime (in seconds)","Pass",0.0221007,"Update testthat","8f7a4deec42ff40841f99f30a3853f384495f8a2",2020-04-22 04:04:17,2020-04-22 04:52:31
+"223",2,"infeasible models","runtime (in seconds)","Pass",0.0103587,"Update testthat","8f7a4deec42ff40841f99f30a3853f384495f8a2",2020-04-22 04:04:17,2020-04-22 04:52:32
+"224",2,"feasible models","runtime (in seconds)","Pass",0.002343,"Update testthat","8f7a4deec42ff40841f99f30a3853f384495f8a2",2020-04-22 04:04:17,2020-04-22 04:52:32
+"225",2,"solver cost same as PoissonLoss","runtime (in seconds)","Pass",0.0042172,"Update testthat","8f7a4deec42ff40841f99f30a3853f384495f8a2",2020-04-22 04:04:17,2020-04-22 04:52:33
+"226",2,"no feasible model for paper data set, forward","runtime (in seconds)","Pass",0.0057965,"Update testthat","8f7a4deec42ff40841f99f30a3853f384495f8a2",2020-04-22 04:04:17,2020-04-22 04:52:33
+"227",2,"sub-optimal model for paper data set, reverse","runtime (in seconds)","Pass",0.0011524,"Update testthat","8f7a4deec42ff40841f99f30a3853f384495f8a2",2020-04-22 04:04:17,2020-04-22 04:52:33
+"228",2,"test-trivial.R","runtime (in seconds)","Pass",0.0222357,"Update testthat","8f7a4deec42ff40841f99f30a3853f384495f8a2",2020-04-22 04:04:17,2020-04-22 04:52:33
+"229",3,"infeasible models","runtime (in seconds)","Pass",0.0093996,"Update testthat","8f7a4deec42ff40841f99f30a3853f384495f8a2",2020-04-22 04:04:17,2020-04-22 04:52:34
+"230",3,"feasible models","runtime (in seconds)","Pass",0.0025788,"Update testthat","8f7a4deec42ff40841f99f30a3853f384495f8a2",2020-04-22 04:04:17,2020-04-22 04:52:34
+"231",3,"solver cost same as PoissonLoss","runtime (in seconds)","Pass",0.0039934,"Update testthat","8f7a4deec42ff40841f99f30a3853f384495f8a2",2020-04-22 04:04:17,2020-04-22 04:52:35
+"232",3,"no feasible model for paper data set, forward","runtime (in seconds)","Pass",0.0056143,"Update testthat","8f7a4deec42ff40841f99f30a3853f384495f8a2",2020-04-22 04:04:17,2020-04-22 04:52:35
+"233",3,"sub-optimal model for paper data set, reverse","runtime (in seconds)","Pass",0.000965,"Update testthat","8f7a4deec42ff40841f99f30a3853f384495f8a2",2020-04-22 04:04:17,2020-04-22 04:52:35
+"234",3,"test-trivial.R","runtime (in seconds)","Pass",0.0235238,"Update testthat","8f7a4deec42ff40841f99f30a3853f384495f8a2",2020-04-22 04:04:17,2020-04-22 04:52:35
+"235",1,"infeasible models","runtime (in seconds)","Pass",0.010147,"Delete test-tri","24b4ee72efe23cbd0653f3c7bddc1647ee766f09",2020-04-22 04:00:16,2020-04-22 04:52:36
+"236",1,"feasible models","runtime (in seconds)","Pass",0.0025228,"Delete test-tri","24b4ee72efe23cbd0653f3c7bddc1647ee766f09",2020-04-22 04:00:16,2020-04-22 04:52:36
+"237",1,"solver cost same as PoissonLoss","runtime (in seconds)","Pass",0.0040394,"Delete test-tri","24b4ee72efe23cbd0653f3c7bddc1647ee766f09",2020-04-22 04:00:16,2020-04-22 04:52:37
+"238",1,"no feasible model for paper data set, forward","runtime (in seconds)","Pass",0.0050896,"Delete test-tri","24b4ee72efe23cbd0653f3c7bddc1647ee766f09",2020-04-22 04:00:16,2020-04-22 04:52:37
+"239",1,"sub-optimal model for paper data set, reverse","runtime (in seconds)","Pass",0.0010877,"Delete test-tri","24b4ee72efe23cbd0653f3c7bddc1647ee766f09",2020-04-22 04:00:16,2020-04-22 04:52:37
+"240",1,"test-trivial.R","runtime (in seconds)","Pass",0.0216431,"Delete test-tri","24b4ee72efe23cbd0653f3c7bddc1647ee766f09",2020-04-22 04:00:16,2020-04-22 04:52:37
+"241",2,"infeasible models","runtime (in seconds)","Pass",0.0099286,"Delete test-tri","24b4ee72efe23cbd0653f3c7bddc1647ee766f09",2020-04-22 04:00:16,2020-04-22 04:52:38
+"242",2,"feasible models","runtime (in seconds)","Pass",0.0027035,"Delete test-tri","24b4ee72efe23cbd0653f3c7bddc1647ee766f09",2020-04-22 04:00:16,2020-04-22 04:52:38
+"243",2,"solver cost same as PoissonLoss","runtime (in seconds)","Pass",0.0042976,"Delete test-tri","24b4ee72efe23cbd0653f3c7bddc1647ee766f09",2020-04-22 04:00:16,2020-04-22 04:52:38
+"244",2,"no feasible model for paper data set, forward","runtime (in seconds)","Pass",0.0052997,"Delete test-tri","24b4ee72efe23cbd0653f3c7bddc1647ee766f09",2020-04-22 04:00:16,2020-04-22 04:52:39
+"245",2,"sub-optimal model for paper data set, reverse","runtime (in seconds)","Pass",0.0011015,"Delete test-tri","24b4ee72efe23cbd0653f3c7bddc1647ee766f09",2020-04-22 04:00:16,2020-04-22 04:52:39
+"246",2,"test-trivial.R","runtime (in seconds)","Pass",0.022116,"Delete test-tri","24b4ee72efe23cbd0653f3c7bddc1647ee766f09",2020-04-22 04:00:16,2020-04-22 04:52:39
+"247",3,"infeasible models","runtime (in seconds)","Pass",0.0098987,"Delete test-tri","24b4ee72efe23cbd0653f3c7bddc1647ee766f09",2020-04-22 04:00:16,2020-04-22 04:52:40
+"248",3,"feasible models","runtime (in seconds)","Pass",0.0027082,"Delete test-tri","24b4ee72efe23cbd0653f3c7bddc1647ee766f09",2020-04-22 04:00:16,2020-04-22 04:52:40
+"249",3,"solver cost same as PoissonLoss","runtime (in seconds)","Pass",0.0046198,"Delete test-tri","24b4ee72efe23cbd0653f3c7bddc1647ee766f09",2020-04-22 04:00:16,2020-04-22 04:52:40
+"250",3,"no feasible model for paper data set, forward","runtime (in seconds)","Pass",0.0057869,"Delete test-tri","24b4ee72efe23cbd0653f3c7bddc1647ee766f09",2020-04-22 04:00:16,2020-04-22 04:52:41
+"251",3,"sub-optimal model for paper data set, reverse","runtime (in seconds)","Pass",0.0012473,"Delete test-tri","24b4ee72efe23cbd0653f3c7bddc1647ee766f09",2020-04-22 04:00:16,2020-04-22 04:52:41
+"252",3,"test-trivial.R","runtime (in seconds)","Pass",0.0242674,"Delete test-tri","24b4ee72efe23cbd0653f3c7bddc1647ee766f09",2020-04-22 04:00:16,2020-04-22 04:52:41
+"253",1,"infeasible models","runtime (in seconds)","Pass",0.0101591,"Delete test-sma","8c1d61a7615f91ed48eb3aa7683fda817389f382",2020-04-22 04:00:09,2020-04-22 04:52:42
+"254",1,"feasible models","runtime (in seconds)","Pass",0.0025632,"Delete test-sma","8c1d61a7615f91ed48eb3aa7683fda817389f382",2020-04-22 04:00:09,2020-04-22 04:52:42
+"255",1,"solver cost same as PoissonLoss","runtime (in seconds)","Pass",0.0040286,"Delete test-sma","8c1d61a7615f91ed48eb3aa7683fda817389f382",2020-04-22 04:00:09,2020-04-22 04:52:42
+"256",1,"no feasible model for paper data set, forward","runtime (in seconds)","Pass",0.0051633,"Delete test-sma","8c1d61a7615f91ed48eb3aa7683fda817389f382",2020-04-22 04:00:09,2020-04-22 04:52:43
+"257",1,"sub-optimal model for paper data set, reverse","runtime (in seconds)","Pass",0.001049,"Delete test-sma","8c1d61a7615f91ed48eb3aa7683fda817389f382",2020-04-22 04:00:09,2020-04-22 04:52:43
+"258",1,"test-trivial.R","runtime (in seconds)","Pass",0.0237955,"Delete test-sma","8c1d61a7615f91ed48eb3aa7683fda817389f382",2020-04-22 04:00:09,2020-04-22 04:52:43
+"259",2,"infeasible models","runtime (in seconds)","Pass",0.0099231,"Delete test-sma","8c1d61a7615f91ed48eb3aa7683fda817389f382",2020-04-22 04:00:09,2020-04-22 04:52:44
+"260",2,"feasible models","runtime (in seconds)","Pass",0.0025224,"Delete test-sma","8c1d61a7615f91ed48eb3aa7683fda817389f382",2020-04-22 04:00:09,2020-04-22 04:52:44
+"261",2,"solver cost same as PoissonLoss","runtime (in seconds)","Pass",0.0039278,"Delete test-sma","8c1d61a7615f91ed48eb3aa7683fda817389f382",2020-04-22 04:00:09,2020-04-22 04:52:44
+"262",2,"no feasible model for paper data set, forward","runtime (in seconds)","Pass",0.005484,"Delete test-sma","8c1d61a7615f91ed48eb3aa7683fda817389f382",2020-04-22 04:00:09,2020-04-22 04:52:45
+"263",2,"sub-optimal model for paper data set, reverse","runtime (in seconds)","Pass",0.0010111,"Delete test-sma","8c1d61a7615f91ed48eb3aa7683fda817389f382",2020-04-22 04:00:09,2020-04-22 04:52:45
+"264",2,"test-trivial.R","runtime (in seconds)","Pass",0.0228142,"Delete test-sma","8c1d61a7615f91ed48eb3aa7683fda817389f382",2020-04-22 04:00:09,2020-04-22 04:52:45
+"265",3,"infeasible models","runtime (in seconds)","Pass",0.0091688,"Delete test-sma","8c1d61a7615f91ed48eb3aa7683fda817389f382",2020-04-22 04:00:09,2020-04-22 04:52:46
+"266",3,"feasible models","runtime (in seconds)","Pass",0.0026145,"Delete test-sma","8c1d61a7615f91ed48eb3aa7683fda817389f382",2020-04-22 04:00:09,2020-04-22 04:52:46
+"267",3,"solver cost same as PoissonLoss","runtime (in seconds)","Pass",0.0042077,"Delete test-sma","8c1d61a7615f91ed48eb3aa7683fda817389f382",2020-04-22 04:00:09,2020-04-22 04:52:46
+"268",3,"no feasible model for paper data set, forward","runtime (in seconds)","Pass",0.0068012,"Delete test-sma","8c1d61a7615f91ed48eb3aa7683fda817389f382",2020-04-22 04:00:09,2020-04-22 04:52:47
+"269",3,"sub-optimal model for paper data set, reverse","runtime (in seconds)","Pass",0.0011273,"Delete test-sma","8c1d61a7615f91ed48eb3aa7683fda817389f382",2020-04-22 04:00:09,2020-04-22 04:52:47
+"270",3,"test-trivial.R","runtime (in seconds)","Pass",0.0227473,"Delete test-sma","8c1d61a7615f91ed48eb3aa7683fda817389f382",2020-04-22 04:00:09,2020-04-22 04:52:47
