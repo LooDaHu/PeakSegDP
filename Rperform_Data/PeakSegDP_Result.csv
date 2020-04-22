@@ -1,4 +1,4 @@
-"num","test_name","metric_name","status","metric_val","commit_message","commit_SHA","commit_date","benchmark_date"
+"num","test_num","test_name","metric_name","status","metric_val","commit_message","commit_SHA","commit_date","benchmark_date"
 "1",1,"PoissonLoss(seg.mean=0, count=0) == 0","runtime (in seconds)","Pass",0.0012343,"Update testthat","8f7a4deec42ff40841f99f30a3853f384495f8a2",2020-04-22 04:04:17,2020-04-22 04:29:50
 "2",1,"PoissonLoss(seg.mean=0, count>0) == Inf","runtime (in seconds)","Pass",0.0010793,"Update testthat","8f7a4deec42ff40841f99f30a3853f384495f8a2",2020-04-22 04:04:17,2020-04-22 04:29:51
 "3",1,"PoissonLoss(seg.mean<0) undefined","runtime (in seconds)","Pass",0.0058515,"Update testthat","8f7a4deec42ff40841f99f30a3853f384495f8a2",2020-04-22 04:04:17,2020-04-22 04:29:51
