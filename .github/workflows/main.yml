@@ -8,7 +8,6 @@ on:
   push:
     branches: [ master ]
     paths-ignore: 
-      - '.github/workflows/**'
       - 'Rperform_Data/**'
   pull_request:
     branches: [ master ]
@@ -24,5 +23,5 @@ jobs:
       with:
         fetch-depth: 0
     - name: test
-      uses: r-benchmark@test
+      uses: actions/r-benchmark@test
       
