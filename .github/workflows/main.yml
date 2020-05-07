@@ -24,6 +24,6 @@ jobs:
       with:
         fetch-depth: 0
     - name: test
-    - uses: r_benchmark@test
+      uses: r_benchmark@test
       with:
         who-to-greet: "Jinming Yang" 
