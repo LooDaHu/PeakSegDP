@@ -23,5 +23,5 @@ jobs:
       with:
         fetch-depth: 0
     - name: test
-      uses: actions/r-benchmark@test
+      uses: actions/r-benchmark@master
       
