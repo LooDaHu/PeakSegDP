@@ -24,4 +24,7 @@ jobs:
         fetch-depth: 0
     - name: r-benchmark
       uses: LooDaHu/R_benchmark@test
+      with:
+        username: LooDaHu
+        commit: 5
       
